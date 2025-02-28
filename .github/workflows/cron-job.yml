@@ -54,43 +54,32 @@ jobs:
           # Save generated content to a temporary directory
           mkdir -p /tmp/generated_content
           cp -R docs/* /tmp/generated_content/ 2>/dev/null || :
-          # Also save README files
-          cp -f README*.md /tmp/ 2>/dev/null || :
           
-          # Check if content-branch exists on remote
-          if git ls-remote --heads origin content-branch | grep content-branch; then
-            # Branch exists, fetch it and checkout
-            git fetch origin content-branch
-            git checkout content-branch || git checkout -b content-branch --track origin/content-branch
-          else
-            # Branch doesn't exist, create it
-            git checkout -b content-branch
-            # Set upstream to push the new branch
-            git push -u origin content-branch
-          fi
+          # Create a new orphan branch (no history)
+          git checkout --orphan temp-content-branch
           
-          # Replace docs content with the saved content
-          rm -rf docs/* || true
+          # Remove everything from the working directory
+          git rm -rf --cached .
+          git clean -fdx
+          
+          # Create docs directory and restore the generated content
           mkdir -p docs
           cp -R /tmp/generated_content/* docs/ 2>/dev/null || :
-          # Restore README files
-          cp -f /tmp/README*.md ./ 2>/dev/null || :
           
-          # Stage changes
+          # Stage all content
           git add docs/
-          git add README*.md 2>/dev/null || :
           
           # Set timezone for the commit timestamp
           export TZ='Asia/Shanghai'
           
-          # Only commit if there are changes
-          if git status --porcelain | grep .; then
-            git commit -m "Auto Build at $(date +"%Y-%m-%d %H:%M")"
-            # Push to content branch
-            git push -f origin content-branch
-          else
-            echo "No changes to commit"
-          fi
+          # Create initial commit
+          git commit -m "Auto Build at $(date +"%Y-%m-%d %H:%M")"
+          
+          # Force push to content-branch (replacing any existing history)
+          git push -f origin temp-content-branch:content-branch
+          
+          # No need to switch back to original branch in this context
+          echo "Content branch updated successfully"
       
       - name: Update GitHub Pages
         run: |
