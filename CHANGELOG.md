@@ -1,4 +1,6 @@
 # CHANGELOG
+- 2025-02-28:
+  - Refactor the whole code structure, with tons of improvements.
 - 2024-05-28:
   - Added useragent to the requests to avoid 403 error.
 - 2024-04-20:

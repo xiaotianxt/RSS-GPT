@@ -1,55 +1,81 @@
 # RSS-GPT
 
-[![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
-[![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
-
-如果想要一个网页端 GUI 来更好地管理 feeds，请关注我的最新项目：[RSSBrew](https://github.com/yinan-c/RSSBrew)，一个开源自托管的 RSS-GPT 替代方案，在过滤，自定义 prompt 等方面更加强大。
+一个干净、高效的 RSS 聚合和 AI 摘要生成工具。
 
 ## 这是什么？
 
-[中文介绍](https://yinan-c.github.io/rss-gpt.html) | [中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html) | [README](README.md)
+这是对原始 RSS-GPT 项目的完全重写和改进版本。代码已经重构，提高了可维护性、性能和仓库结构的清晰度。
 
-使用 GitHub workflow 自动运行一个简单的 Python 脚本，调用 OpenAI API 为 RSS 订阅源生成摘要，然后将新生成的 RSS 订阅源推送到 GitHub Pages。配置简单快速，无需服务器。
+使用 GitHub Actions 定期运行 Python 脚本：调用 OpenAI API 为 RSS 订阅源生成摘要，并将生成的内容推送到单独的内容分支。配置简单，无需服务器。
 
-### 功能及示例
+### 主要改进
 
-- 使用 ChatGPT 来总结 RSS 订阅源, 生成关键词，摘要附在原文前面，支持自定义摘要长度，自定义语言。
-- 聚合多个 RSS 订阅源，去除重复文章，用单一地址订阅。
-- 为 RSS 订阅源添加基于标题，内容，URL 的关键词过滤器。
-- 在 GitHub 仓库和 GitHub Pages 上自托管 RSS 订阅源。
+- **干净的仓库结构**：生成的内容存储在单独的 `content-branch` 中，保持主分支干净并专注于代码
+- **改进的工作流**：添加了清理工作流，防止主分支中出现数千个不必要的提交
+- **重构的代码库**：完全重写，具有更好的代码组织、类型提示和错误处理
+- **增强的性能**：并行处理 RSS 订阅源，提高执行速度
+- **更好的日志系统**：全面的日志系统，便于调试和监控
 
-![](https://i.imgur.com/7darABv.jpg)
+![RSS-GPT 示例](https://i.imgur.com/7darABv.jpg)
 
-## 快速部署
+## 功能
 
-- Fork 这个仓库中
-- 添加仓库 Secrets
-    - U_NAME: 你的 GitHub 用户名
-    - U_EMAIL: 你的 GitHub 邮箱
-    - WORK_TOKEN: 你的 GitHub 个人访问令牌, 需要有 `repo` 和 `workflow` 权限。在 [GitHub 设置](https://github.com/settings/tokens/new)获取
-    - OPENAI_API_KEY(可不填, 只有在使用 AI 摘要功能时需要): 你的 OpenAI API 密钥, 在 [OPENAI 网站](https://platform.openai.com/account/api-keys)获取
-- 在仓库设置中启用 GitHub Pages， 选择 deploy from branch，设置目录为 `/docs`.
-- 在 `config.ini` 中配置你的RSS订阅源
+- 使用 AI 模型（支持最新的 GPT-4o 模型）总结 RSS 订阅源，将摘要附加到原始文章中
+- 支持自定义摘要长度和目标语言
+- 聚合多个 RSS 订阅源，去除重复文章，用单一地址订阅
+- 为 RSS 订阅源添加基于包含/排除规则和正则表达式的过滤器
+- 在 GitHub Pages 上托管 RSS 订阅源，保持仓库历史干净
 
-也可以参考更详细的[中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)。
+## 快速设置指南
 
-## 脚本的更新
+1. Fork 这个仓库
+2. 添加仓库 Secrets
+   - `U_NAME`：你的 GitHub 用户名
+   - `U_EMAIL`：你的 GitHub 邮箱
+   - `WORK_TOKEN`：你的 GitHub 个人访问令牌，需要有 `repo` 和 `workflow` 权限
+   - `OPENAI_API_KEY`：（可选）仅在使用 AI 摘要功能时需要
+3. 在仓库设置中启用 GitHub Pages：
+   - 选择从分支部署
+   - 选择 `content-branch`（不是 main）
+   - 设置目录为 `/docs`
+4. 在 `config.ini` 中配置你的 RSS 订阅源
 
-- 由于 OpenAI 在 2023-11-06 发布了新版本的 `openai` 包，[新版本包含了更强大的模型](https://openai.com/blog/new-models-and-developer-products-announced-at-devday)，调用 API 的方式也发生了变化。因此，旧版本的脚本将无法使用最新版本的 `openai` 包，需要更新。否则，你可以在 `requirements.txt` 中设置 `openai==0.27.8` 来使用旧版本。
-- 查看 [CHANGELOG-zh.md](CHANGELOG-zh.md) 获取其他最新的更新日志。
+## 配置
 
-### 欢迎贡献!
+编辑 `config.ini` 文件添加你的 RSS 订阅源：
 
-- 欢迎提交 issue 和 pull request。
+```ini
+[cfg]
+base = "docs/"
+language = "zh"  # 摘要的目标语言
+keyword_length = "5"
+summary_length = "200"
 
-## 分享几条本项目处理后的 RSS 订阅源
+[source001]
+name = "example-feed"
+url = "https://example.com/feed.xml"
+max_items = "10"
+filter_apply = "title"  # 可选：应用过滤器到标题
+filter_type = "exclude"  # 可选：排除或包含
+filter_rule = "keyword1|keyword2"  # 可选：正则表达式模式
+```
 
-我自己用此脚本总结的一些 RSS订阅源托管在本项目的[`docs/`子目录](https://github.com/yinan-c/RSS-GPT/tree/main/docs)中以及我的 [GitHub Pages](https://yinan-c.github.io/RSS-GPT/)上找到。欢迎在任何 RSS 阅读器中订阅。
+## 高级功能
 
-如果有任何问题或有关于 RSS feeds 的建议，欢迎邮件联系我。
+### 自定义 OpenAI 模型
 
-如果你觉得本项目有帮助，欢迎 star。也可以考虑捐赠以支持我继续维护本项目以及 cover OpenAI API 的支出。感谢支持。
+你可以通过在 GitHub 仓库 secrets 中设置 `CUSTOM_MODEL` 环境变量来指定你偏好的 OpenAI 模型。
 
-<a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+### 过滤选项
 
-- https://www.theverge.com/rss/index.xml -> theverge.xml
+- `filter_apply`：应用过滤器的位置（标题、描述或两者）
+- `filter_type`：是包含还是排除匹配的条目
+- `filter_rule`：用于匹配的正则表达式模式
+
+## 贡献
+
+欢迎贡献！随时提交问题和拉取请求。
+
+## 许可证
+
+本项目采用 MIT 许可证 - 详情请参阅 LICENSE 文件。

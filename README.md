@@ -1,64 +1,81 @@
 # RSS-GPT
 
-[![](https://img.shields.io/github/last-commit/yinan-c/RSS-GPT/main?label=feeds%20refreshed)](https://yinan-c.github.io/RSS-GPT/)
-[![](https://img.shields.io/github/license/yinan-c/RSS-GPT)](https://github.com/yinan-c/RSS-GPT/blob/master/LICENSE)
-
-If you need a web GUI to manage feeds better, check out my latest project: [RSSBrew](https://github.com/yinan-c/RSSBrew), a self-hosted RSS-GPT alternative with more features and customizability, built with Django.
+A clean, efficient RSS feed aggregator and summarizer powered by AI.
 
 ## What is this?
 
-[Configuration Guide](https://yinan-c.github.io/rss-gpt-manual-en.html) | [中文简介](README-zh.md) | [中文教程](https://yinan-c.github.io/rss-gpt-manual-zh.html)
+This is a completely rewritten and improved version of the original RSS-GPT project. The code has been refactored for better maintainability, performance, and cleaner repository structure.
 
-Using GitHub Actions to run a simple Python script repeatedly: Calling OpenAI API to generate summaries for RSS feeds, and push the generated feeds to GitHub Pages. Easy to configure, no server needed.
+Using GitHub Actions to run a Python script periodically: Calling OpenAI API to generate summaries for RSS feeds, and pushing the generated feeds to a separate content branch. Easy to configure, no server needed.
 
-### Features
+### Key Improvements
 
-- Use AI models (supports latest GPT-4o models) to summarize RSS feeds, and attach summaries to the original articles, support custom summary length and target language.
-- Aggregate multiple RSS feeds into one, remove duplicate articles, subscribe with a single address.
-- Add filters to your own personalized RSS feeds using inclusive/exclusive rules and regex patterns.
-- Host your own RSS feeds on GitHub repo and GitHub Pages.
-- Simplified code structure for better performance and easier maintenance.
+- **Clean repository structure**: Generated content is stored in a separate `content-branch`, keeping the main branch clean and focused on code
+- **Improved workflow**: Added cleanup workflow to prevent thousands of unnecessary commits in the main branch
+- **Refactored codebase**: Completely rewritten with better code organization, typing, and error handling
+- **Enhanced performance**: Parallel processing of RSS feeds for faster execution
+- **Better logging**: Comprehensive logging system for easier debugging and monitoring
 
-![](https://i.imgur.com/7darABv.jpg)
+![RSS-GPT Example](https://i.imgur.com/7darABv.jpg)
 
-## Quick configuration guide
+## Features
 
-- Fork this repo
-- Add Repository Secrets
-    - U_NAME: your GitHub username
-    - U_EMAIL: your GitHub email
-    - WORK_TOKEN: your GitHub personal access token with `repo` and `workflow` scope, get it from [GitHub settings](https://github.com/settings/tokens/new)
-    - OPENAI_API_KEY(OPTIONAL, only needed when using AI summarization feature): Get it from [OpenAI website](https://platform.openai.com/api-keys)
-- Enable GitHub Pages in repo settings, choose deploy from branch, and set the directory to `/docs`.
-- Configure your RSS feeds in config.ini
+- Use AI models (supports latest GPT-4o models) to summarize RSS feeds, and attach summaries to the original articles
+- Support for custom summary length and target language
+- Aggregate multiple RSS feeds into one, remove duplicate articles, subscribe with a single address
+- Add filters to your personalized RSS feeds using inclusive/exclusive rules and regex patterns
+- Host your RSS feeds on GitHub Pages with clean repository history
 
-You can check out [here](https://yinan-c.github.io/rss-gpt-manual-en.html) for a more detailed configuration guide.
+## Quick Setup Guide
 
-## Recent improvements (2025)
+1. Fork this repo
+2. Add Repository Secrets
+   - `U_NAME`: your GitHub username
+   - `U_EMAIL`: your GitHub email
+   - `WORK_TOKEN`: your GitHub personal access token with `repo` and `workflow` scope
+   - `OPENAI_API_KEY`: (Optional) Only needed when using AI summarization feature
+3. Enable GitHub Pages in repo settings:
+   - Choose deploy from branch
+   - Select `content-branch` (not main)
+   - Set the directory to `/docs`
+4. Configure your RSS feeds in `config.ini`
 
-- **Simplified code structure**: Code has been completely refactored to be more concise and easier to maintain, reducing complexity by ~30%.
-- **Enhanced model support**: Now supports the latest GPT-4o models with automatic fallback mechanism (tries gpt-4o-mini first, then falls back to gpt-4o).
-- **Custom model support**: You can specify your own preferred model by setting the `CUSTOM_MODEL` environment variable.
-- **Improved logging**: Streamlined logging system for better debugging and monitoring.
-- **Better error handling**: More robust handling of network issues and API errors.
-- **Performance optimizations**: Parallel processing of RSS feeds for faster execution.
+## Configuration
 
-Check out the [CHANGELOG.md](CHANGELOG.md) for a complete history of updates.
+Edit the `config.ini` file to add your RSS feeds:
 
-### Contributions are welcome!
+```ini
+[cfg]
+base = "docs/"
+language = "zh"  # Target language for summaries
+keyword_length = "5"
+summary_length = "200"
 
-- Feel free to submit issues and pull requests.
+[source001]
+name = "example-feed"
+url = "https://example.com/feed.xml"
+max_items = "10"
+filter_apply = "title"  # Optional: Apply filter to title
+filter_type = "exclude"  # Optional: exclude or include
+filter_rule = "keyword1|keyword2"  # Optional: regex pattern
+```
 
-## Support this project
+## Advanced Features
 
-- If you find it helpful, please star this repo. Please also consider buying me a coffee to help maintain this project and cover the expenses of OpenAI API while hosting the feeds. I appreciate your support.
+### Custom OpenAI Model
 
-<a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+You can specify your preferred OpenAI model by setting the `CUSTOM_MODEL` environment variable in GitHub repository secrets.
 
-## Example feeds being processed
+### Filtering Options
 
-These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/RSS-GPT/tree/main/docs) in this repo as well as on my [GitHub Pages](https://yinan-c.github.io/RSS-GPT/). Feel free to subscribe in your favorite RSS reader.
+- `filter_apply`: Where to apply the filter (title, description, or both)
+- `filter_type`: Whether to include or exclude matching entries
+- `filter_rule`: Regular expression pattern for matching
 
-I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
+## Contributing
 
-- https://www.theverge.com/rss/index.xml -> theverge.xml
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
