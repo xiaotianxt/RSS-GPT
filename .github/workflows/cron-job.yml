@@ -1,0 +1,100 @@
+name: cron_job
+
+# Controls when the workflow will run
+on:
+  # cron job every 2 hours
+  schedule:
+   - cron: '0 */2 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-20.04
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORK_TOKEN }}
+          # Fetch all history for all branches and tags
+          fetch-depth: 0
+    
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run script and generate content
+        run: |
+          python main.py
+          ls -al docs/
+        env:
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          CUSTOM_MODEL: ${{ secrets.CUSTOM_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          U_NAME: ${{ secrets.U_NAME }}
+
+      - name: Setup Git Identity
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - name: Create and update content branch
+        run: |
+          # Save generated content to a temporary directory
+          mkdir -p /tmp/generated_content
+          cp -R docs/* /tmp/generated_content/
+          # Also save README files
+          cp -f README*.md /tmp/ 2>/dev/null || :
+          
+          # Check if content-branch exists on remote
+          if git ls-remote --heads origin content-branch | grep content-branch; then
+            # Branch exists, checkout to it
+            git checkout content-branch
+          else
+            # Branch doesn't exist, create it
+            git checkout -b content-branch
+            # Set upstream to push the new branch
+            git push -u origin content-branch
+          fi
+          
+          # Replace docs content with the saved content
+          rm -rf docs/* || true
+          mkdir -p docs
+          cp -R /tmp/generated_content/* docs/
+          # Restore README files
+          cp -f /tmp/README*.md ./ 2>/dev/null || :
+          
+          # Stage changes
+          git add docs/
+          git add README*.md 2>/dev/null || :
+          
+          # Set timezone for the commit timestamp
+          export TZ='Asia/Shanghai'
+          
+          # Only commit if there are changes
+          if git status --porcelain | grep .; then
+            git commit -m "Auto Build at $(date +"%Y-%m-%d %H:%M")"
+            # Push to content branch
+            git push -f origin content-branch
+          else
+            echo "No changes to commit"
+          fi
+      
+      - name: Update GitHub Pages
+        run: |
+          # NOTE: For this to work, you need to update GitHub Pages settings to deploy from the content-branch instead of main
+          # Go to Settings > Pages > Build and deployment > Branch > select "content-branch" and directory "/docs"
+          echo "Content updated in content-branch, GitHub Pages will reflect changes automatically if configured correctly"
+          echo "If GitHub Pages is still using main branch, please update it in repository settings"
