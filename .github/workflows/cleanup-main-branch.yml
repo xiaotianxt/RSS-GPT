@@ -1,0 +1,76 @@
+name: Cleanup Main Branch
+
+on:
+  # Manual trigger only
+  workflow_dispatch:
+
+jobs:
+  cleanup-main:
+    runs-on: macos-14
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        with:
+          # Fetch all history for all branches and tags
+          fetch-depth: 0
+          token: ${{ secrets.WORK_TOKEN }}
+
+      - name: Setup Git Identity
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Identify and remove GitHub Actions commits
+        run: |
+          # Create a temporary branch for our clean history
+          git checkout -b clean-main-temp
+
+          # Get a list of commit hashes from GitHub Actions bot
+          ACTION_COMMITS=$(git log --author="github-actions" --format="%H" main)
+          
+          if [ -z "$ACTION_COMMITS" ]; then
+            # Try alternative author name format
+            ACTION_COMMITS=$(git log --author="github-actions\[bot\]" --format="%H" main)
+            
+            if [ -z "$ACTION_COMMITS" ]; then
+              echo "No GitHub Actions commits found in the history"
+              exit 0
+            fi
+          fi
+          
+          echo "Found $(echo "$ACTION_COMMITS" | wc -l | xargs) GitHub Actions commits to remove"
+          
+          # Create a git filter command to remove those commits
+          FILTER_SCRIPT="#!/bin/bash\n"
+          
+          # For each commit by GitHub Actions, skip it in the rebase
+          for COMMIT in $ACTION_COMMITS; do
+            SHORT_HASH=$(git log --format="%h" -n 1 $COMMIT)
+            FILTER_SCRIPT="${FILTER_SCRIPT}if [ \"\$GIT_COMMIT\" = \"$COMMIT\" ]; then\n  exit 0\nfi\n"
+            echo "Will filter out commit $SHORT_HASH"
+          done
+          
+          # Check if this is an empty commit (no parent or identical to parent)
+          FILTER_SCRIPT="${FILTER_SCRIPT}if [ -z \"\$GIT_COMMIT\" ]; then\n  exit 0\nfi\n"
+          FILTER_SCRIPT="${FILTER_SCRIPT}if [ \"\$GIT_COMMIT\" = \"\$GIT_COMMIT_PARENT\" ]; then\n  exit 0\nfi\n"
+          
+          FILTER_SCRIPT="${FILTER_SCRIPT}git commit-tree \"\$@\"\n"
+          
+          # Write filter script to file
+          echo -e "$FILTER_SCRIPT" > /tmp/filter-script.sh
+          chmod +x /tmp/filter-script.sh
+          
+          # Debug: output filter script content
+          echo "Filter script content:"
+          cat /tmp/filter-script.sh
+          
+          # Set environment variable to suppress git filter-branch warning
+          export FILTER_BRANCH_SQUELCH_WARNING=1
+          
+          # Use git filter-branch to remove the commits (without --prune-empty)
+          git filter-branch --force --commit-filter '/tmp/filter-script.sh "$@"' HEAD
+          
+          echo "Force pushing cleaned history to main branch"
+          git push --force origin clean-main-temp:main
+          
+          echo "Cleanup completed successfully" 
