@@ -85,13 +85,12 @@ def fetch_feed(url: str):
         response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         if response.status_code == 200:
             feed = feedparser.parse(response.text)
-            logger.info(f"获取成功: {url}")
             return {'feed': feed, 'status': 'success'}
         else:
-            logger.error(f"获取失败: HTTP {response.status_code} - {url}")
+            logger.error(f"获取失败: HTTP {response.status_code}")
             return {'feed': None, 'status': response.status_code}
     except requests.RequestException as e:
-        logger.error(f"获取失败: {str(e)} - {url}")
+        logger.error(f"获取失败: {str(e)}")
         return {'feed': None, 'status': 'failed'}
 
 def clean_html(html_content: str) -> str:
@@ -124,11 +123,8 @@ def create_summary_messages(text: str, cfg):
         return [
             {"role": "user", "content": text},
             {"role": "assistant", "content": (
-                f"请用中文总结这篇文章，先提取出{cfg['keyword_length']}个关键词，"
-                f"在同一行内输出，然后换行，用中文在{cfg['summary_length']}字内写一个流畅自然的总结，"
-                f"以连贯的段落形式呈现，避免使用编号列表，使用自然的语言过渡，"
-                f"并按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，"
-                f"输出时必须保留2个，并且必须在'总结:'二字之前"
+                f"请用中文总结这篇文章，用中文在{cfg['summary_length']}字内写一个流畅自然的总结，"
+                f"以连贯的段落形式呈现，避免使用编号列表，使用自然的语言过渡。"
             )}
         ]
     else:
@@ -222,7 +218,7 @@ def process_feed_entries(feed, existing_entries, filter_apply, filter_type, filt
     for entry in feed.entries:
         # 如果达到最大条目数，跳过
         if cnt >= MAX_ENTRIES:
-            logger.info(f"跳过: [{entry.title}]({entry.link})")
+            logger.info(f"跳过: [{entry.title}]")
             break
         
         # 清理v2ex链接
@@ -264,7 +260,7 @@ def process_feed_entries(feed, existing_entries, filter_apply, filter_type, filt
                     entry.summary = generate_summary(cleaned_article, cfg, openai_client, cfg['custom_model'])
                     logger.info(f"使用{cfg['custom_model']}生成摘要，文本长度: {len(cleaned_article)}")
                     append_entries.append(entry)
-                    logger.info(f"添加: [{entry.title}]({entry.link})")
+                    logger.info(f"添加: [{entry.title}]")
                     continue
                 except Exception as e:
                     logger.warning(f"自定义模型摘要生成失败: {str(e)}")
@@ -329,7 +325,7 @@ def process_single_feed(section, cfg, openai_client):
         # 验证过滤器配置
         if any([filter_apply, filter_type, filter_rule]) and not all([filter_apply, filter_type, filter_rule]):
             logger.error(f"部分{section}: filter_apply, type, rule必须一起设置")
-            return {"url": "", "name": section_name}
+            return {"name": section_name}
         
         # 获取要摘要的最大项目数
         max_items = int(config.get(section, 'max_items', fallback='0').strip('"'))
@@ -349,8 +345,6 @@ def process_single_feed(section, cfg, openai_client):
             if not rss_url:
                 continue
                 
-            logger.info(f"获取: {rss_url}")
-            
             result = fetch_feed(rss_url)
             feed = result['feed']
             if not feed:
@@ -373,43 +367,11 @@ def process_single_feed(section, cfg, openai_client):
         
         # 返回feed信息以生成索引
         return {
-            "url": config.get(section, 'url', fallback='').strip('"').replace(',', '<br>'),
             "name": section_name
         }
     finally:
         # 移除feed文件处理器以避免重复日志
         logger.removeHandler(file_handler)
-
-def update_readme_files(links, cfg):
-    """更新README文件"""
-    for readme_file in ["README.md", "README-zh.md"]:
-        try:
-            # 读取现有README
-            try:
-                with open(readme_file, 'r') as f:
-                    readme_lines = f.readlines()
-            except FileNotFoundError:
-                logger.warning(f"未找到{readme_file}，将创建新文件")
-                readme_lines = []
-            
-            # 移除现有feed链接
-            while readme_lines and (readme_lines[-1].startswith('- ') or readme_lines[-1] == '\n'):
-                readme_lines = readme_lines[:-1]
-            
-            # 添加新的feed链接
-            if readme_lines and not readme_lines[-1].endswith('\n'):
-                readme_lines.append('\n')
-            else:
-                readme_lines.append('\n')
-            readme_lines.extend(links)
-            
-            # 写回README
-            with open(readme_file, 'w') as f:
-                f.writelines(readme_lines)
-                
-            logger.info(f"已更新{readme_file}")
-        except Exception as e:
-            logger.error(f"更新{readme_file}时出错: {str(e)}")
 
 def generate_index_html(feeds, cfg):
     """生成GitHub Pages的index.html"""
@@ -453,14 +415,10 @@ def process_all_feeds(cfg):
                     feeds.append(feed)
                     
                     # 为README创建链接
-                    url = cfg['config'].get(section, 'url', fallback='').strip('"').replace(',', ', ')
                     name = feed['name']
-                    links.append(f"- {url} -> {cfg['deployment_url']}{name}.xml\n")
+                    links.append(f"- {cfg['deployment_url']}{name}.xml\n")
             except Exception as e:
                 logger.error(f"处理部分{section}时出错: {str(e)}")
-    
-    # 更新README文件
-    update_readme_files(links, cfg)
     
     # 生成index.html
     generate_index_html(feeds, cfg)

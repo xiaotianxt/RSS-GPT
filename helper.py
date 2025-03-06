@@ -43,7 +43,6 @@ def opml_to_ini(opml_file, ini_file):
         section_name = f"source{str(i).zfill(3)}"
         config[section_name] = {
             'name': format_with_quotes(name),
-            'url': format_with_quotes(url),
             'max_items': format_with_quotes('0')  # Default value, adjust as necessary
         }
 
