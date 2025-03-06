@@ -17,7 +17,7 @@ import concurrent.futures
 
 # 全局常量
 MAX_ENTRIES = 10
-MAX_CONCURRENT_REQUESTS = 10
+MAX_CONCURRENT_REQUESTS = 1
 REQUEST_TIMEOUT = 10
 
 # 设置基本日志
