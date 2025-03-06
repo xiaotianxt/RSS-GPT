@@ -42,6 +42,33 @@ jobs:
           python crypto_utils.py config.ini.enc -op decrypt -p ${{ secrets.CONFIG_PASSWORD }}
         env:
           CONFIG_PASSWORD: ${{ secrets.CONFIG_PASSWORD }}
+      
+      - name: Fetch existing XML files from content-branch
+        run: |
+          # Create a directory for storing XML files
+          mkdir -p docs
+          
+          # Check if content-branch exists
+          if git ls-remote --heads origin content-branch | grep -q content-branch; then
+            echo "Found content-branch, fetching XML files..."
+            # Fetch the content branch
+            git fetch origin content-branch
+            
+            # Create a temporary worktree for the content branch
+            git worktree add --detach temp-content-branch FETCH_HEAD
+            
+            # Copy XML files from the content branch to docs directory
+            find temp-content-branch/docs -name "*.xml" -exec cp {} docs/ \; 2>/dev/null || echo "No XML files found in content-branch"
+            
+            # Remove the temporary worktree
+            git worktree remove temp-content-branch
+            
+            # List copied XML files for debugging
+            echo "Copied XML files:"
+            ls -la docs/*.xml 2>/dev/null || echo "No XML files copied"
+          else
+            echo "content-branch does not exist yet, will be created after first run"
+          fi
           
       - name: Run script and generate content
         run: |
