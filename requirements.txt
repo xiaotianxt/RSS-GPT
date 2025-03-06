@@ -7,3 +7,4 @@ httpx
 requests
 fake_useragent
 typing-extensions
+cryptography
