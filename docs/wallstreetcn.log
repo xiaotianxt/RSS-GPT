@@ -1,0 +1,36 @@
+2026-09-05 19:39:00,736 - INFO - ------------------------------------------------------
+2026-09-05 19:39:00,736 - INFO - 开始: 2026-09-05 19:39:00.736418
+2026-09-05 19:39:00,736 - INFO - 现有条目: 20
+2026-09-05 19:39:01,324 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,324 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 171
+2026-09-05 19:39:01,324 - INFO - 添加: [Treasury Yields, Fed Rate-Hike Bets Rise After Strong U.S. Jobs Data]
+2026-09-05 19:39:01,450 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,450 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 221
+2026-09-05 19:39:01,450 - INFO - 添加: [Soft Retail Sales Reveal Cracks in Eurozone Resilience to Energy Shock]
+2026-09-05 19:39:01,546 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,546 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 126
+2026-09-05 19:39:01,546 - INFO - 添加: [BOE Survey Points to Cooling Price Pressures]
+2026-09-05 19:39:01,696 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,696 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 156
+2026-09-05 19:39:01,696 - INFO - 添加: [Swiss Inflation Jumps on Higher Energy Prices]
+2026-09-05 19:39:01,793 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,793 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 179
+2026-09-05 19:39:01,793 - INFO - 添加: [Global Bond Yields Surge as Oil Prices Fuel Inflation Worries]
+2026-09-05 19:39:01,911 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:01,911 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 203
+2026-09-05 19:39:01,912 - INFO - 添加: [German Inflation Rises But Few Signs of Energy-Shock Spillover]
+2026-09-05 19:39:02,061 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:02,061 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 134
+2026-09-05 19:39:02,061 - INFO - 添加: [U.S. Home Price Growth Rose in June]
+2026-09-05 19:39:02,147 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:02,147 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 96
+2026-09-05 19:39:02,147 - INFO - 添加: [U.S. Housing Starts Dropped in July]
+2026-09-05 19:39:02,270 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:02,270 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 140
+2026-09-05 19:39:02,270 - INFO - 添加: [The Dutch central bank said it moved around 86 metric tons of gold from New York and Ottawa to London as a result of “increasing geopolitical unrest”]
+2026-09-05 19:39:02,359 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-05 19:39:02,359 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 167
+2026-09-05 19:39:02,359 - INFO - 添加: [Malaysia Central Bank Holds Rates as Growth Stays Firm]
+2026-09-05 19:39:02,359 - INFO - 跳过: [A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans]
+2026-09-05 19:39:02,359 - INFO - 添加条目: 10
+2026-09-05 19:39:02,369 - INFO - 完成: 2026-09-05 19:39:02.369196
