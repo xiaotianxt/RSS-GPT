@@ -1,0 +1,36 @@
+2026-09-16 02:04:19,516 - INFO - ------------------------------------------------------
+2026-09-16 02:04:19,516 - INFO - 开始: 2026-09-16 02:04:19.516841
+2026-09-16 02:04:19,516 - INFO - 现有条目: 20
+2026-09-16 02:04:19,745 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:19,745 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 113
+2026-09-16 02:04:19,745 - INFO - 添加: [A broad measure of American incomes reached a record high last year as upper-income households fared well and women’s pay gained ground compared with men]
+2026-09-16 02:04:19,851 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:19,851 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 164
+2026-09-16 02:04:19,851 - INFO - 添加: [Canada Wholesale Sales Rose in July]
+2026-09-16 02:04:19,958 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:19,958 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 168
+2026-09-16 02:04:19,958 - INFO - 添加: [New York Manufacturing Activity Decelerated in September]
+2026-09-16 02:04:20,119 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,119 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 172
+2026-09-16 02:04:20,119 - INFO - 添加: [U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High]
+2026-09-16 02:04:20,222 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,222 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 93
+2026-09-16 02:04:20,222 - INFO - 添加: [The Fed is poised to raise rates, a vital oil pipeline shuts down and Sen. Susan Collins has some strong words for Trump. Read more in today’s What’s News newsletter:]
+2026-09-16 02:04:20,343 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,343 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 115
+2026-09-16 02:04:20,343 - INFO - 添加: [Last month, the U.S. added an impressive 162,000 jobs and unemployment is low, but broad economic measures might be missing how much Americans’ costs have risen—and how many of them haven’t kept up]
+2026-09-16 02:04:20,443 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,443 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 134
+2026-09-16 02:04:20,443 - INFO - 添加: [A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans]
+2026-09-16 02:04:20,562 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,562 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 141
+2026-09-16 02:04:20,562 - INFO - 添加: [Consumer Sentiment Has Dropped in August, per Michigan Survey]
+2026-09-16 02:04:20,659 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,659 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 100
+2026-09-16 02:04:20,659 - INFO - 添加: [Retail Sales Fell Last Month]
+2026-09-16 02:04:20,759 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-16 02:04:20,759 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 133
+2026-09-16 02:04:20,759 - INFO - 添加: [Eurozone Retail Sales Retreat as Consumers Still Fret Over War]
+2026-09-16 02:04:20,759 - INFO - 跳过: [Global Trading System Facing Fragmentation or Revamp At ‘Critical Juncture,’ WTO Says]
+2026-09-16 02:04:20,759 - INFO - 添加条目: 10
+2026-09-16 02:04:20,766 - INFO - 完成: 2026-09-16 02:04:20.766083
