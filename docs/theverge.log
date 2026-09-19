@@ -1,0 +1,23 @@
+2026-09-19 16:51:27,393 - INFO - ------------------------------------------------------
+2026-09-19 16:51:27,393 - INFO - 开始: 2026-09-19 16:51:27.393729
+2026-09-19 16:51:27,393 - INFO - 现有条目: 11
+2026-09-19 16:51:27,782 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:27,782 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 637
+2026-09-19 16:51:27,782 - INFO - 添加: [Gemini went rogue, hacked three companies, and Google hid it]
+2026-09-19 16:51:27,868 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:27,868 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 713
+2026-09-19 16:51:27,868 - INFO - 添加: [Anamanaguchi has ‘too goddamn many’ browser tabs open right now]
+2026-09-19 16:51:27,971 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:27,972 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 1137
+2026-09-19 16:51:27,972 - INFO - 添加: [The colorful, unique Hyte X50 PC case is $50 off]
+2026-09-19 16:51:28,090 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,090 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 41442
+2026-09-19 16:51:28,091 - INFO - 添加: [Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????]
+2026-09-19 16:51:28,173 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,173 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 713
+2026-09-19 16:51:28,173 - INFO - 添加: [It’s not just LG. Every TV company is spying on you]
+2026-09-19 16:51:28,262 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,263 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 643
+2026-09-19 16:51:28,263 - INFO - 添加: [The AI regulation smackdown isn’t over]
+2026-09-19 16:51:28,263 - INFO - 添加条目: 6
+2026-09-19 16:51:28,271 - INFO - 完成: 2026-09-19 16:51:28.271975

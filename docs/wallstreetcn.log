@@ -1,0 +1,36 @@
+2026-09-19 16:51:28,278 - INFO - ------------------------------------------------------
+2026-09-19 16:51:28,278 - INFO - 开始: 2026-09-19 16:51:28.278344
+2026-09-19 16:51:28,278 - INFO - 现有条目: 20
+2026-09-19 16:51:28,521 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,522 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 103
+2026-09-19 16:51:28,522 - INFO - 添加: [A new Federal Reserve inquiry into the 2023 collapse of Silicon Valley Bank found that bank-supervision staff in the Biden era could have anticipated and prevented the bank’s failure]
+2026-09-19 16:51:28,597 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,597 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 145
+2026-09-19 16:51:28,598 - INFO - 添加: [Week Ahead for FX, Bonds: U.S. PMI Data, Various Central Bank Decisions in Focus]
+2026-09-19 16:51:28,687 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,687 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 122
+2026-09-19 16:51:28,687 - INFO - 添加: [U.S. Leading Indicators Ticked Down in August]
+2026-09-19 16:51:28,785 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,785 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 131
+2026-09-19 16:51:28,785 - INFO - 添加: [U.S. Industrial Production Unchanged in August]
+2026-09-19 16:51:28,874 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,874 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 171
+2026-09-19 16:51:28,874 - INFO - 添加: [Treasury Yields, Fed Rate-Hike Bets Rise After Strong U.S. Jobs Data]
+2026-09-19 16:51:28,983 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:28,984 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 126
+2026-09-19 16:51:28,984 - INFO - 添加: [BOE Survey Points to Cooling Price Pressures]
+2026-09-19 16:51:29,059 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:29,059 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 156
+2026-09-19 16:51:29,059 - INFO - 添加: [Swiss Inflation Jumps on Higher Energy Prices]
+2026-09-19 16:51:29,146 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:29,146 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 141
+2026-09-19 16:51:29,146 - INFO - 添加: [U.S. Housing Starts Fell in August]
+2026-09-19 16:51:29,239 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:29,239 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 121
+2026-09-19 16:51:29,239 - INFO - 添加: [RBA Governor Bullock Says Inflation Fears Materializing]
+2026-09-19 16:51:29,318 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}]
+2026-09-19 16:51:29,318 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 110
+2026-09-19 16:51:29,318 - INFO - 添加: [The Bank of England kept its key interest rate unchanged, holding steady at a time when the Federal Reserve and European Central Bank have raised rates]
+2026-09-19 16:51:29,318 - INFO - 跳过: [U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged]
+2026-09-19 16:51:29,318 - INFO - 添加条目: 10
+2026-09-19 16:51:29,325 - INFO - 完成: 2026-09-19 16:51:29.325035
