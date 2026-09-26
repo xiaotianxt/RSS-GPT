@@ -1,0 +1,36 @@
+2026-09-26 17:28:39,381 - INFO - ------------------------------------------------------
+2026-09-26 17:28:39,382 - INFO - 开始: 2026-09-26 17:28:39.382014
+2026-09-26 17:28:39,382 - INFO - 现有条目: 20
+2026-09-26 17:28:39,579 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,579 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 105
+2026-09-26 17:28:39,579 - INFO - 添加: [Consumer Sentiment Ticked Lower in September]
+2026-09-26 17:28:39,665 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,665 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 133
+2026-09-26 17:28:39,665 - INFO - 添加: [Durable Goods Orders Were Unchanged in August]
+2026-09-26 17:28:39,744 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,744 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 97
+2026-09-26 17:28:39,745 - INFO - 添加: [The rental market in Portland, Ore., is so depressed that high earners are paying some of the same rents as lower-income residents who qualify for subsidized housing]
+2026-09-26 17:28:39,820 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,820 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 171
+2026-09-26 17:28:39,820 - INFO - 添加: [Treasury Yields, Fed Rate-Hike Bets Rise After Strong U.S. Jobs Data]
+2026-09-26 17:28:39,896 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,896 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 126
+2026-09-26 17:28:39,896 - INFO - 添加: [BOE Survey Points to Cooling Price Pressures]
+2026-09-26 17:28:39,975 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:39,975 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 141
+2026-09-26 17:28:39,975 - INFO - 添加: [U.S. Housing Starts Fell in August]
+2026-09-26 17:28:40,077 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:40,077 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 136
+2026-09-26 17:28:40,077 - INFO - 添加: [Eurozone Consumer Sentiment Knocked by Surging Energy Prices]
+2026-09-26 17:28:40,205 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:40,205 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 141
+2026-09-26 17:28:40,205 - INFO - 添加: [Consumer Sentiment Has Dropped in August, per Michigan Survey]
+2026-09-26 17:28:40,428 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:40,428 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 117
+2026-09-26 17:28:40,428 - INFO - 添加: [EU, Philippines Reach Breakthrough in Free-Trade Talks]
+2026-09-26 17:28:40,600 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-09-26 17:28:40,600 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 148
+2026-09-26 17:28:40,600 - INFO - 添加: [The U.S. is pressuring Mexico to accept new rules for exports of AI hardware to prevent Chinese companies and other foreign firms from circumventing tariffs]
+2026-09-26 17:28:40,600 - INFO - 跳过: [Eurozone Trade Surplus Widened in July]
+2026-09-26 17:28:40,600 - INFO - 添加条目: 10
+2026-09-26 17:28:40,607 - INFO - 完成: 2026-09-26 17:28:40.607464
