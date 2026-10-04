@@ -1,0 +1,36 @@
+2026-10-04 00:11:37,267 - INFO - ------------------------------------------------------
+2026-10-04 00:11:37,268 - INFO - 开始: 2026-10-04 00:11:37.268117
+2026-10-04 00:11:37,268 - INFO - 现有条目: 20
+2026-10-04 00:11:37,854 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:37,854 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 121
+2026-10-04 00:11:37,854 - INFO - 添加: [Week Ahead for FX, Bonds: Fed Minutes in Focus as Near-Term Rate-Hike Prospects Dim]
+2026-10-04 00:11:37,970 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:37,970 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 131
+2026-10-04 00:11:37,970 - INFO - 添加: [Average 30-year mortgage rates hit 7.03% this week, the first time they have surpassed 7% since the beginning of last year]
+2026-10-04 00:11:38,088 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,088 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 134
+2026-10-04 00:11:38,088 - INFO - 添加: [KB Home Cuts Margin Outlook as Housing Conditions Worsen]
+2026-10-04 00:11:38,200 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,200 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 145
+2026-10-04 00:11:38,200 - INFO - 添加: [Many people who are willing to move a little further from the city, or buy a smaller home, are figuring out that it is still possible to buy]
+2026-10-04 00:11:38,288 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,288 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 92
+2026-10-04 00:11:38,288 - INFO - 添加: [Fed Vice Chair Philip Jefferson said officials may need more time before deciding whether to raise interest rates again, echoing signals from another Fed leader this week that cast doubt on bets the central bank would lift rates at its meeting later this month]
+2026-10-04 00:11:38,403 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,403 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 171
+2026-10-04 00:11:38,403 - INFO - 添加: [Fed’s Kashkari Says Inflation Still Too High, Latest Data Didn’t Change View]
+2026-10-04 00:11:38,518 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,519 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 143
+2026-10-04 00:11:38,519 - INFO - 添加: [Treasury Yields Hit Fresh Highs]
+2026-10-04 00:11:38,625 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,625 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 99
+2026-10-04 00:11:38,625 - INFO - 添加: [New York Fed President John Williams said that the Federal Reserve needn’t rush to continue raising interest rates after officials voted through the first rate increase in three years last week]
+2026-10-04 00:11:38,738 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,738 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 105
+2026-10-04 00:11:38,738 - INFO - 添加: [Consumer Sentiment Ticked Lower in September]
+2026-10-04 00:11:38,839 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-04 00:11:38,840 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 139
+2026-10-04 00:11:38,840 - INFO - 添加: [German Consumer Confidence Falls to Lowest Since May on Energy Costs]
+2026-10-04 00:11:38,840 - INFO - 跳过: [Canada Retail Sales Recover Following First Fall of Year in July]
+2026-10-04 00:11:38,840 - INFO - 添加条目: 10
+2026-10-04 00:11:38,850 - INFO - 完成: 2026-10-04 00:11:38.850504
