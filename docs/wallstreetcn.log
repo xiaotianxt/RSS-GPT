@@ -1,0 +1,36 @@
+2026-10-11 02:36:40,382 - INFO - ------------------------------------------------------
+2026-10-11 02:36:40,382 - INFO - 开始: 2026-10-11 02:36:40.382514
+2026-10-11 02:36:40,382 - INFO - 现有条目: 20
+2026-10-11 02:36:40,671 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:40,671 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 111
+2026-10-11 02:36:40,671 - INFO - 添加: [France’s Economy Is Trapped in a Negative Feedback Loop]
+2026-10-11 02:36:40,864 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:40,864 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 183
+2026-10-11 02:36:40,864 - INFO - 添加: [U.S. Home Price Growth Increases Again]
+2026-10-11 02:36:40,974 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:40,974 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 131
+2026-10-11 02:36:40,974 - INFO - 添加: [Average 30-year mortgage rates hit 7.03% this week, the first time they have surpassed 7% since the beginning of last year]
+2026-10-11 02:36:41,085 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,085 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 134
+2026-10-11 02:36:41,085 - INFO - 添加: [KB Home Cuts Margin Outlook as Housing Conditions Worsen]
+2026-10-11 02:36:41,194 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,194 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 145
+2026-10-11 02:36:41,195 - INFO - 添加: [Many people who are willing to move a little further from the city, or buy a smaller home, are figuring out that it is still possible to buy]
+2026-10-11 02:36:41,309 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,309 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 153
+2026-10-11 02:36:41,309 - INFO - 添加: [After Kevin Warsh took over the Fed this spring, he said he wanted investors to watch the economy, not the Fed: Play the ball, not the referee. Last week, the referees stepped in]
+2026-10-11 02:36:41,419 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,419 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 95
+2026-10-11 02:36:41,419 - INFO - 添加: [What Six Years of Inflation Mean for the Midterms]
+2026-10-11 02:36:41,512 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,512 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 83
+2026-10-11 02:36:41,512 - INFO - 添加: [U.S. consumer spending is on the rise despite frustrations with persistent inflation and gloomy views about the economy]
+2026-10-11 02:36:41,636 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,636 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 105
+2026-10-11 02:36:41,636 - INFO - 添加: [Consumer Sentiment Ticked Lower in September]
+2026-10-11 02:36:41,746 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-11 02:36:41,746 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 136
+2026-10-11 02:36:41,746 - INFO - 添加: [German Exports Fall Further, Clouding Picture of Resilience]
+2026-10-11 02:36:41,746 - INFO - 跳过: [The Trump administration resurrected its global tariffs by turning to a novel theory of forced-labor violations. The tariffs face a court challenge, but forced-labor polices aren’t going away]
+2026-10-11 02:36:41,746 - INFO - 添加条目: 10
+2026-10-11 02:36:41,764 - INFO - 完成: 2026-10-11 02:36:41.764192

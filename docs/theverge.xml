@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>The Verge</title>
+<link>https://www.theverge.com</link>
+
+<item>
+<title>Satya Nadella says we should assume all AI models are ‘compromised’</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised</link>
+<guid>https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised</guid>
+<content:encoded><![CDATA[
+
+<figure>
+
+<img alt="Satya Nadella on a graphic background of the red, blue, green, and yellow." src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">In a <a href="https://x.com/satyanadella/status/2108931348857827686?s=20">lengthy post on X</a>, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a "set of nested black boxes" whose advice and actions we simply accept or reject. He calls for building a more transparent system where models can be contained, observed, and leaves behind "tamper-proof human readable evidence."</p>
+<p class="wp-block-paragraph">Many of his recommendations align with what we've heard from others in the industry: timely incident disclosure, independent audits, verifiable data, and containment. It's on that last point that he appears t …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-10T18:10:17-04:00</pubDate>
+<pubDate>2026-10-10T18:10:17-04:00</pubDate>
+</item>
+
+<item>
+<title>DistroKid has been quietly taking down songs in response to UMG lawsuit</title>
+<link>https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit</link>
+<guid>https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="DistroKid Logo on blue background." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/distrokid_logo_og_image.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">Artists are <a href="https://x.com/shinobistalin/status/2108324834664907207?s=20">taking</a> to <a href="https://www.threads.com/@stilldono/post/DeRcOJoIB0A">social media</a> to <a href="https://x.com/poetofbabylon/status/2108210502862262499?s=20">complain</a> that DistroKid has <a href="https://youtu.be/Jy_IZ9afe40">unceremoniously removed</a> their work without notice. Now DistroKid has confirmed to <em>The Verge</em> that the takedowns are a direct response to claims made by UMG. The label filed a <a href="https://www.theverge.com/entertainment/995842/umg-is-suing-distrokid-for-alleged-deceptive-trade-practices-and-blatant-copyright-infringement">lawsuit</a> in September claiming that DistroKid has created an "AI-slop pipeline." Artists are saying that their non-AI works are being caught up in the purge, however.</p>
+<p class="wp-block-paragraph">Musician and self-described "Video Game boy" <a href="https://open.spotify.com/artist/411VUMJLq5DVLoU7OaBwk7?si=_8km8XUZTius5dQ0hvuNeg">McGwire</a> reported that six of his songs had been removed from streaming. As has been the case with others, McGwire says that there was no communication from DistroKid before or after the removals, a …</p>
+<p><a href="https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-10T14:52:07-04:00</pubDate>
+</item>
+<item>
+<title>Ledger wallet tampering suspected after reports of crypto thefts</title>
+<link>https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts</link>
+<guid>https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK428_CRYPTO_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">Reports have been mounting that users of the Ledger crypto wallet have seen their <a href="https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen">accounts drained</a>, and it appears to be related to tampered hardware sold by CryptoBillis. Ledger has asked CryptoBillis to <a href="https://x.com/Ledger_Support/status/2108551100613714002">pause all sales</a> of its wallets while it conducts an investigation. Ledger has confirmed that "one of the impacted users' devices contained an unauthorized hardware implant."</p>
+<p class="wp-block-paragraph">Photos and videos <a href="https://x.com/MagicalTux/status/2108576506704548179">posted on X</a> and <a href="https://www.threads.com/share/FLflunlO0/">Threads</a> appear to show a <a href="https://x.com/MagicalTux/status/2108574096636416402">small circuit board</a> sandwiched under the screen. The implant allegedly intercepts anything displayed on the screen, including the seed passphrase shown during the initial setup. Using an embedded SIM card, the  …</p>
+<p><a href="https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-10T13:39:16-04:00</pubDate>
+</item>
+<item>
+<title>K-pop star Sunmi loves Notion and ear cleaning videos</title>
+<link>https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview</link>
+<guid>https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="K-pop start Sunmi with blond hair in a very light blue dress in some very dreamy early morning light." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Photo-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">Sunmi is an undeniable force in K-pop. She first made her debut as a member of the Wonder Girls back in 2007, one of the first K-pop acts to really break through in the West. The English version of their single "<a href="https://youtu.be/BA7fdSkp8ds">Nobody</a>" was the first K-pop song to hit the Billboard Hot 100 in October 2009.</p>
+<p class="wp-block-paragraph">In 2010 Sunmi left the group to go back to school, but the siren call of a music career pulled her back in. She released her debut solo EP <em>Full Moon</em> in 2014. That began a run of award-winning releases for the pop star, including Song of the Year for "Gashina" at the Gaon Chart Music Awards.</p>
+<p class="wp-block-paragraph">Despite her near-constant presence in the K-pop world as a solo  …</p>
+<p><a href="https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-09T09:23:50-04:00</pubDate>
+</item>
+<item>
+<title>Anthropic is cutting off its internal evaluations from the internet</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet</link>
+<guid>https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="Anthropic logo on an orange and grey background." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a <a href="https://www.anthropic.com/research/investigating-unintended-model-actions">report</a> Friday, the company detailed "<a href="https://www.theverge.com/ai-artificial-intelligence/1009251/anthropic-published-a-report-about-investigating-unintended-model-actions-during-evaluations-and-internal-use">unintended model actions</a>," including submitting a <a href="https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip">false tip</a> regarding an unsolved murder, that led to the decision.</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">Although the impact of these behaviors was minimal and we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures (described in the remediation section  …</p></blockquote>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-10T10:41:16-04:00</pubDate>
+</item>
+<item>
+<title>Will Warner Bros. kill Skydance — or will David Ellison kill Warner Bros?</title>
+<link>https://www.theverge.com/podcast/1008733/warner-skydance-paramount-ellison-debt-failure</link>
+<guid>https://www.theverge.com/podcast/1008733/warner-skydance-paramount-ellison-debt-failure</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="A stylized illustration of David Ellison clutching the Warner Bros. water tower" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_0319.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-drop-cap wp-block-paragraph">Today, I’m talking with Peter Kafka, chief correspondent at <em>Business Insider</em> and host of the <em>Channels</em> podcast, about the gigantic Warner Bros.-Paramount merger and the future of the company now simply called Skydance.</p>
+
+<p class="wp-block-paragraph">Skydance is owned by David Ellison, son of Oracle CEO Larry Ellison, and its deal to acquire Warner Bros. Discovery officially closed the day Peter and I spoke.</p>
+
+<p class="wp-block-paragraph">There are some grand ambitions here, but the reality is that acquiring Warner never goes well for anyone. AOL failed, AT&amp;T failed, and Discovery failed — although it did succeed in flipping these assets to Skydance. So I wanted to ask Peter if he thinks the Ellisons and Skydance have a real shot at succeeding where so many companies before them have hit the rocks. </p>
+
+<p class="wp-block-paragraph">Okay: Peter Kafka on Warner Bros. and Skydance. Here we go.</p>
+
+
+
+<p class="wp-block-paragraph"><em>This interview has been lightly edited for length and clarity.</em></p>
+
+<p class="wp-block-paragraph"><strong>Peter Kafka, you&#8217;re the chief correspondent at Business Insider, and you&#8217;re the host of the</strong> <strong><em>Channels</em></strong> <strong>podcast, our sister podcast here on the Vox Media Podcast Network. Welcome back to</strong> <strong><em>Decoder</em></strong><strong>.</strong></p>
+
+<p class="wp-block-paragraph">Thanks for having me. It&#8217;s big media day again!</p>
+
+<p class="wp-block-paragraph"><strong>A big media day. It&#8217;s an auspicious day, as my parents would say. It is the day that the Warner-Paramount merger closes. We&#8217;ve all been calling it Warner Mount, but I&#8217;m told this company will instead</strong> <a href="https://www.theverge.com/entertainment/1004016/paramount-warner-bros-skydance-megamerger-name"><strong>just be called Skydance</strong></a><strong>.&nbsp;&nbsp;</strong></p>
+
+<p class="wp-block-paragraph">Skydance!</p>
+
+<p class="wp-block-paragraph"><strong>Every time I see the word Skydance, I assume it is foreign-owned, which is maybe true in some way.</strong></p>
+
+<p class="wp-block-paragraph">Another way to think of it is that there are iconic names in Hollywood. Paramount is such an iconic name that Viacom <a href="https://www.cbsnews.com/news/paramount-viacomcbs-name-change-company/">turned itself into Paramount</a> years ago. Warner Bros. is a legendary studio. Let&#8217;s get rid of those names. Let&#8217;s add Skydance, which no one&#8217;s ever heard of.</p>
+
+<p class="wp-block-paragraph"><strong>Let’s just start at the start. There was Paramount. There’s Warner Bros. The deal closes today. That is all going to be a new company called Skydance. Is Skydance just a holding company? Are we as consumers meant to know that this thing exists?</strong></p>
+
+<p class="wp-block-paragraph">I think for the near term, you&#8217;re still gonna think of companies like Paramount, Warner Bros., and HBO as brands you know, but this is going to be one company. They&#8217;re going to merge everything. They&#8217;re likely going to merge the streaming services, Paramount and HBO, into a thing, not right away, but eventually. So I do think Skydance will be a name that consumers will probably know at some point.</p>
+
+<div class="wp-block-vox-media-highlight vox-media-highlight"><img alt="" src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24792604/The_Verge_Decoder_Tileart.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" title="" />
+
+
+<p class="wp-block-paragraph"><em>Verge</em> subscribers, don&#8217;t forget you get exclusive access to ad-free <em>Decoder</em> wherever you get your podcasts. Head <a href="https://www.theverge.com/account/podcasts">here</a>. Not a subscriber? You can <a href="https://www.theverge.com/subscribe">sign up here</a>. </p>
+</div>
+
+<p class="wp-block-paragraph"><strong>I just have to ask, what are the chances that HBO Max will be rebranded yet again into Skydance?</strong></p>
+
+<p class="wp-block-paragraph">There&#8217;s probably gonna be some branding stuff. Not again. In the near term, because this is still a cable TV company, there are actually some limits on what these guys can do with their brands and their services. And they won&#8217;t come out and say, &#8220;We&#8217;re gonna mush this stuff together.&#8221;</p>
+
+<p class="wp-block-paragraph">But there&#8217;s likely to be one mega streaming service, and maybe you can get HBO separately, or maybe you can only get HBO or only Paramount. Still, it&#8217;s gonna be one thing, and one movie studio. It&#8217;s all gonna get mushed together, and it&#8217;s all gonna be run by David Ellison.</p>
+
+<p class="wp-block-paragraph"><strong>David Ellison is just the latest to believe that he can buy Warner Bros. and make something good happen. I have joked many times on this show that maybe the only antitrust policy this country needs is to make it illegal to buy Warner Bros., and that would just solve a lot of problems. Why does he think he will be successful?</strong></p>
+
+<p class="wp-block-paragraph">Well, his dad&#8217;s the eighth richest man in the world, so that&#8217;s not nothing.</p>
+
+<p class="wp-block-paragraph"><strong>That Oracle stock is tied up in a bunch of AI stuff. It&#8217;s moving up and down.</strong></p>
+
+<p class="wp-block-paragraph">We can talk about that. But one, that means that he literally has the money to buy this, and two, that this is a public company kind of in name only. David Ellison and Larry Ellison, his father, control this company effectively. They don&#8217;t really need to worry that much about equity shareholders. Debt&#8217;s a different issue.&nbsp;</p>
+
+<p class="wp-block-paragraph">And he’s 43. He&#8217;s got a long run backed by tens of billions of dollars of his father&#8217;s money to take a stab at this. And as you said, he will not be the first person to do this. There&#8217;s a long list of failures. I think maybe that&#8217;s appealing to guys like him. It&#8217;s like, &#8220;Everyone else is dumb. I&#8217;m the smart guy who&#8217;s gonna figure it out.&#8221;</p>
+
+<p class="wp-block-paragraph"><strong>“Everyone else is dumb, and I&#8217;m smarter than everyone else is,” is very appealing. But that long list of failures, if you just look at it — they&#8217;re all shaped like this idea. We&#8217;re gonna take iconic Warner Bros. content, we&#8217;re gonna marry it to new distribution, we&#8217;re gonna reduce the overhead and costs and decadence of Hollywood. Where does new revenue come from?</strong></p>
+
+<p class="wp-block-paragraph">There&#8217;s no plan for new revenue. There&#8217;s no <em>announced</em> plan for new revenue. Right now it&#8217;s shrinking; it&#8217;s cutting costs. It&#8217;s when we merge these two companies together, we&#8217;re gonna save $6 billion over the next three years. We promise that most of that&#8217;s not gonna come from layoffs, but a lot of it&#8217;s gonna come from layoffs.</p>
+
+<p class="wp-block-paragraph">These are companies that have had many, many rounds of layoffs prior to this. And you could argue, well, there&#8217;s probably not that much more to cut. I think reasonably you could say, look, if you combine two big streaming operations, two big studio operations, there probably is stuff [to cut]. You can probably sell off some real estate. You probably don&#8217;t need all the executives you currently have. There&#8217;s some savings there. But how do you grow? No idea. And no one&#8217;s really articulated that.</p>
+
+<p class="wp-block-paragraph"><strong>Growth is required for a couple of reasons here. One, yes, there are going to be shareholders; people will be looking at it. There&#8217;s David Ellison&#8217;s ego. Then there&#8217;s debt. This deal is levered to the max, right?</strong></p>
+
+<p class="wp-block-paragraph">Eighty billion dollars [in debt]. Eight zero. More important than the number is the reason that David Ellison was able to buy Warner Bros. was that the last owner <a href="https://www.hollywoodreporter.com/business/business-news/warner-bros-discovery-debt-megadeal-questions-1235868542/">couldn&#8217;t deal with the debt</a> that he took on to buy the company. And that was a mere $43 or $50 billion, depending on who was counting. This is David Zaslav, <a href="https://www.thewrap.com/industry-news/business/david-zaslav-paramount-warner-bros-discovery-merger-payout/">the former CEO</a> of Warner Bros. Discovery, who spent his entire tenure running that company telling Wall Street that, yes, he was gonna get the debt down, and that was his main focus, and debt, debt, debt, reduce, reduce, reduce.</p>
+
+<p class="wp-block-paragraph">I mean, he did reduce some debt, but he never convinced Wall Street that he had a plan to grow. Wall Street gave up on this company years ago, which is why when David Ellison decided he wanted to buy it, the stock was, like, seven bucks or something like that. Eventually bought it for, you know, many, many times that.&nbsp;</p>
+
+<p class="wp-block-paragraph">And now David Zaslav is considered — or he considers himself — a genius for selling the company at such a high price. You could also argue, as someone told me yesterday, that a unicorn sort of manifested itself and allowed David Zaslav to exit the situation he had put himself into.</p>
+
+<p class="wp-block-paragraph">I don&#8217;t know who the next unicorn will be for this company if David Ellison at some point decides, &#8220;Ugh, actually this is a lot of debt and a lot of pain. I don&#8217;t wanna do this anymore.&#8221;</p>
+
+<p class="wp-block-paragraph"><strong>I want to come back to that because I have a little bit of a conspiracy theory. It&#8217;s a little bit supported by the attitudes of some of the players here, but we&#8217;ll come back around. Even the previous owner, AT&amp;T, which is remarkable that AT&amp;T was the&#8230; Somewhere in this chain of ownership, AT&amp;T owned Warner.</strong></p>
+
+<p class="wp-block-paragraph">Yes.</p>
+
+<p class="wp-block-paragraph"><strong>They could not deal with these assets. Their plan was to distribute Warner content on AT&amp;T phones, which never made any sense. But they were a more aggressive owner.</strong></p>
+
+<p class="wp-block-paragraph">It also wasn&#8217;t really their plan. Their plan was, &#8220;Hey, Netflix is a really valuable company. The stock is very high. We&#8217;re this boring telecoms company. Our stock is not moving. What if we owned a [version of] Netflix? I bet Wall Street would reward us as a high-flying tech company all of a sudden.&#8221; And Wall Street didn&#8217;t.&nbsp;</p>
+
+<p class="wp-block-paragraph">Within a couple of years, AT&amp;T said, &#8220;Uh, oh yeah, no, we&#8217;re out of this.&#8221; And yes, they had said a bunch of stuff about mobile, connectivity, ads, and targeting, and none of that ever went anywhere</p>
+
+<p class="wp-block-paragraph"><strong>I will never forget covering their antitrust case when they had to get approval for that deal. They</strong> <a href="https://www.theverge.com/2018/6/12/17452870/att-time-warner-merger-decision-judge"><strong>convinced the judge</strong></a> <strong>that they had a vision of the future. The judge in that case, in the appeals court opinion, wrote, &#8220;This is a vision deal.&#8221; And I thought, &#8220;We&#8217;re doomed.&#8221; Like, I don&#8217;t know what&#8217;s going on in our judiciary [system].</strong></p>
+
+<p class="wp-block-paragraph">I want a Vision deal. How do I get one of those?</p>
+
+<p class="wp-block-paragraph"><strong>I don&#8217;t know. I was like, &#8220;I don&#8217;t know what that is at all.&#8221;&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>So, we have a lot of debt. The FCC had to</strong> <a href="https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/"><strong>waive the cap</strong></a> <strong>on foreign ownership. There&#8217;s 49 percent of the money from the Gulf in this company. Then there&#8217;s the Oracle of it. I&#8217;ve always wondered</strong> <a href="https://www.theverge.com/entertainment/845532/larry-ellison-paramount-wb-netflix-takeover-oracle"><strong>why anyone would trade</strong></a> <strong>what amounts to an AI stock for a media stock, especially right now.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>But the AI trade is a little shakier than it was before. Oracle has been punished a little bit for this deal. What do you make of that? Is that an effective backstop?</strong></p>
+
+<p class="wp-block-paragraph">I don&#8217;t know if Oracle was punished for this deal. I mean, there was a period a year ago when Larry Ellison&#8217;s net worth was double what it is now. And you could say, &#8220;Well, that was just a weird AI blip.&#8221; It&#8217;s still a very highly valued company. He is still the eighth richest man in the world because of his Oracle holdings.</p>
+
+<p class="wp-block-paragraph">Wall Street is a little bit nervous now about the fact that Larry Ellison’s source of wealth is Oracle. He&#8217;s borrowing from Oracle. He has backstopped the Warner Bros. deal by pledging to come up with $40 or $50 billion if he needs to. And there is a question of, like, all right, not only is Oracle sort of intimately tied into this new media company, but Oracle&#8217;s also entirely dependent on one AI company, OpenAI, for its new plan.</p>
+
+<p class="wp-block-paragraph">So late in life — Larry Ellison is 82 years old — he’s decided he&#8217;s kind of putting the entire company on AI and on OpenAI specifically. And while he&#8217;s not doing that, he&#8217;s going to use some of that money to fund his son&#8217;s media empire. I don&#8217;t know if it&#8217;s rickety, but it&#8217;s definitely a question mark.</p>
+
+<p class="wp-block-paragraph"><strong>I open Instagram. Right now my Instagram algorithm is crazy because I keep looking for Instagram&#8217;s tolerance for copyright infringement, and it is high. Instagram has basically unlimited tolerance for copyright infringement. Mark Zuckerberg is posting deepfake memes of himself doing rap videos now.</strong></p>
+
+<p class="wp-block-paragraph">These are details. By the way, Nilay, you know who&#8217;s figured out the Instagram and Reels algorithm? You! I get so much Nilay front-facing video. You&#8217;re very good at it. You should consider being an influencer. You have figured this out.</p>
+
+<p class="wp-block-paragraph"><strong>I try to deeply understand the things that are gonna kill me, and so that&#8217;s&#8230; We&#8217;re just looking at that one, and I&#8217;m looking at my daughter. I&#8217;m like, &#8220;I should know what&#8217;s going on here.&#8221;</strong></p>
+
+<p class="wp-block-paragraph"><strong>All this AI makes it impossibly cheap and easy to just take the IP from these movie studios. I watched a video last night of the Heath Ledger Joker and the Christian Bale Batman just doing a Justin Bieber video, and then I was served 5,000 more videos like this.</strong></p>
+
+<p class="wp-block-paragraph"><strong>That&#8217;s the OpenAI business. They&#8217;re gonna destroy the creative foundations that make the IP valuable that Warner Bros. makes, and somewhere in there is a big problem that I can&#8217;t quite figure out.</strong></p>
+
+<p class="wp-block-paragraph">Yeah, I think it maybe is simpler than that. You&#8217;re right, there are all kinds of copyright issues. The value of your library may be much less if someone can just take it without paying you. But I think the bigger issue for David Ellison and anyone in the media business is that what you really want is people&#8217;s attention.</p>
+
+<p class="wp-block-paragraph">You have this company saddled with $80 billion in debt because it makes all kinds of entertainment, really expensive movies, all this sort of stuff, and now anyone can make anything that will at least get your attention for a few seconds on Instagram and TikTok. And so there&#8217;s this flood of stuff, whether it&#8217;s copyright infringement or not, it&#8217;s just stuff that the David Ellisons of the world have to contend with because your daughter and my kids might easily watch that stuff rather than the original <em>Batman</em> movie.</p>
+
+<p class="wp-block-paragraph">I think that is sort of the existential problem [not just] for Skydance, but every media company today.</p>
+
+<p class="wp-block-paragraph"><strong>But the Skydance purchase is being funded by the OpenAI deal with Oracle money. OpenAI just took all the stuff, right? This is a thing I can&#8217;t quite square: If OpenAI succeeds at the level that is necessary for the Ellison family to stay wealthy, then they will have massively profited from overwhelming IP theft, and they will have a product that can make anyone a movie at any time for zero dollars, rendering Warner effectively useless.</strong></p>
+
+<p class="wp-block-paragraph">Maybe you&#8217;re right! Again, I think there is a core tension here in that the reason you say that Skydance is worth what it&#8217;s worth is because of its existing library and its ability to make new stuff. And a lot of that may be much, much less valuable going forward. There&#8217;s a counter that says, look, you know, people were stealing music for decades, and somehow Spotify and the music industry figured out how to actually sell $120 worth of music per year to people who were only buying two CDs per year prior to that.</p>
+
+<p class="wp-block-paragraph">So maybe there&#8217;s a way to math yourself out of this, but we don&#8217;t know yet.</p>
+
+<p class="wp-block-paragraph"><strong>There are other constraints on this deal. This deal is actually marked by constraints and challenges, in a particular way. The big one is that in order to settle the antitrust lawsuit filed by California and a bunch of other states, they agreed to</strong> <a href="https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails"><strong>put out 30 films per year</strong></a> <strong>or pay $30 million per film that they missed into healthcare and retirement funds managed by the unions. After two years, they have to go up to 32 movies per year, and if they don&#8217;t hit that, they&#8217;ve gotta sell their 49 percent stake in Miramax.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>This is a pretty intense constraint, right? They&#8217;ve gotta just make a bunch of movies; they do not make this many movies right now. So how are you gonna cut costs to make more movies?</strong></p>
+
+<p class="wp-block-paragraph">I think the math there is that we have these two studios. If you sort of totaled up what they were gonna do already, it&#8217;s close to 30. And, to be clear, this is not really a constraint from California. This is a pledge that David Ellison was shouting from the rooftop for months and months and months. And if you want to, we can talk about the non-settlement he extracted from California. But this has been David Ellison&#8217;s pitch for a long time.&nbsp;</p>
+
+<p class="wp-block-paragraph">I think the main thing is that David Ellison has proved that he can sort of get California and regulators around the world, and definitely federal regulators in the Donald Trump era, to go along with whatever he asks for. I don&#8217;t think they&#8217;re gonna be constrained by regulation.</p>
+
+<p class="wp-block-paragraph">I think they&#8217;re gonna be constrained by math and debt, and are you shaving that debt down fast enough to make bondholders happy?</p>
+
+<p class="wp-block-paragraph"><strong>I&#8217;m actually asking about math here. I do want to talk about the non-settlement, but the 30 films per year going up to 32, I don&#8217;t know that there&#8217;s a market for that. It&#8217;s not like the box office is growing at the rate to support that, and if you need to pay down your debt, the first thing you would do is stop making things that people aren&#8217;t buying.</strong></p>
+
+<p class="wp-block-paragraph">I mean, there&#8217;s some finagling, right? Like, what is a movie? Does a movie have to be released in movie theaters? You know, is a piece of shit that no one watches a movie? And then again, I think, in that settlement in California, they said literally, like, &#8220;X number of movies have to be in a movie theater,&#8221; which means a lot of them don&#8217;t.</p>
+
+<p class="wp-block-paragraph">So who knows what they will use to fulfill that obligation. But for the near term, I don&#8217;t think that is gonna be their primary problem.</p>
+
+<p class="wp-block-paragraph"><strong>Let&#8217;s talk about California for one second. I actually got an email from a reader saying that I always call out Republicans by name, but I only say California. So I will say it appears [Governor] Gavin Newsom and [Attorney General] Rob Bonta totally caved here. Ellison threatened to move to Nashville or something, and they blinked, and I think the other states in that lawsuit were not happy that they blinked, but they totally blinked. What is the settlement? Does it have any teeth at all?</strong></p>
+
+<p class="wp-block-paragraph">No. It&#8217;s all the stuff that David Ellison was already proposing, and none of the things that Rob Bonta, the attorney general of California, said he was demanding. He was saying, &#8220;We need structural remedies.&#8221; I&#8217;m sure I don&#8217;t need to tell a <em>Decoder</em> audience what a structural remedy is.&nbsp;</p>
+
+<p class="wp-block-paragraph">He was like, &#8220;Behavioral remedies are not adequate. It won&#8217;t work.&#8221; He was saying that up until the weekend that he caved, and then he caved, and he had this humiliating press conference where he had to stand up and say, &#8220;This is, this is a good deal. I really believe in it.&#8221; Apparently, he was considered, like, a rising star in Democratic politics, in California politics. I have not been exposed to him prior to that press conference, but it&#8217;s very hard to imagine that guy has a&#8230; He doesn&#8217;t seem to have a lot of juice. Anyway, enough about my political musings.</p>
+
+<p class="wp-block-paragraph">There&#8217;s very little in here. I don&#8217;t think Paramount gave up a single thing to actually make this deal work. You got it right. They said, &#8220;We&#8217;re gonna leave if you don&#8217;t give us what we want.&#8221; Anyone who&#8217;s watched professional sports, who&#8217;s rooted for a professional sports team, knows how this goes. &#8220;If you don&#8217;t build me my new stadium, if you don&#8217;t give me billions of dollars to refurbish my stadium, I&#8217;m gonna leave.&#8221; And sometimes those teams do leave, but most of the time they stay and they get what they want, and that seems to have been the Ellison playbook here.</p>
+
+<p class="wp-block-paragraph">David Ellison&#8217;s pitch to Hollywood for the last two years was like, &#8220;I grew up here. I love movies. I love Hollywood. I love film.&#8221; And then the last few months were, &#8220;I&#8217;m gonna ditch this and go to Tennessee or wherever else and fuck Hollywood,&#8221; which is kinda hard to square those two things.&nbsp;</p>
+
+<p class="wp-block-paragraph"><strong>The second he got that settlement, he was like, &#8220;No, I love LA. I was never planning to leave.”</strong></p>
+
+<p class="wp-block-paragraph">I think they looked at this from the start as: We&#8217;ll say and do whatever we need to make this deal get done. And once it&#8217;s done, it&#8217;ll all be behind us; we can go back to loving LA, and no one&#8217;s ever gonna pay attention to this.</p>
+
+<p class="wp-block-paragraph">And by the way, he might be right.</p>
+
+<p class="wp-block-paragraph"><strong>I do have to note that Peter is a Vikings fan. I&#8217;m a Packers fan. I do not believe the Bears are gonna move to Indiana. We&#8217;re literally watching this situation play out in front of us right now.</strong></p>
+
+<p class="wp-block-paragraph">That&#8217;s a wild one. I will say the Minnesota North Stars no longer exist. The Dallas Stars. Minnesota was without hockey for several years. So sometimes these guys actually do follow through and move the team.</p>
+
+<p class="wp-block-paragraph"><strong>Yeah. Speaking of Minnesota, who knew you didn&#8217;t need a quarterback to go four and 0? Just throwing that out there.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>Let&#8217;s talk about the NFL for one other second. The</strong> <a href="https://www.theverge.com/podcast/962994/comcast-nbc-universal-split-versant-content-plus-pipes-media-broadband"><strong>last time</strong></a> <strong>you were on the show, you pointed out that CBS broadcast television exists to sell the American people the NFL. That is the business.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>Speaking of math, of costs, there is a change of control clause in the NFL deal with CBS. They could come in there, they could raise rates, they could get Amazon or Apple or Google to throw a bunch of money on the table and basically tank this company. They could take CBS&#8217;s business away.</strong></p>
+
+<p class="wp-block-paragraph"><strong>Does that feel like a meaningful threat right now?</strong></p>
+
+<p class="wp-block-paragraph">No. I think CBS will pay whatever it needs to pay to keep the NFL. It is existential for them. I think the NFL knows that. But also, the NFL, as much as they like streaming stuff and streaming deals, they like broadcast TV. They like that distribution. It&#8217;s also a political football, pun intended. If the NFL went away from broadcast television, I think that would become an actual national political emergency. You&#8217;d actually have Republicans and Democrats united to sort of stop it or do something about it.</p>
+
+<p class="wp-block-paragraph">It&#8217;s very hard for me to believe that the NFL leaves broadcast TV, and I think because CBS needs it so badly, I just think they&#8217;ll pay whatever they need to pay.</p>
+
+<p class="wp-block-paragraph"><strong>Let&#8217;s talk about the structure of this deal. I love talking about corporate structure on the show, as you know. You have</strong> <a href="https://www.businessinsider.com/skydance-warner-paramount-ceo-ynon-kreiz-who-is-david-ellison-2026-10?op=1"><strong>a profile of the new co-CEO</strong></a> <strong>of Skydance, Ynon Kreiz. He was most recently at Mattel.</strong></p>
+
+<p class="wp-block-paragraph"><strong>There&#8217;s actually a lot of Peter in this story because he left Mattel to go run Skydance. And the CEO of Condé Nast, Roger Lynch, is leaving Condé Nast to go to Mattel, and we&#8217;ll find out who the new CEO of Condé Nast will be. These are all Peter Kafka stories in a way.</strong></p>
+
+<p class="wp-block-paragraph">Oh, it goes deeper than that. I met Ynon Kreiz when he was running a company called Maker Studios back in the YouTube MCN days, for any of your ancient watchers and listeners. And he sold that company to Disney, and I actually broke that story. And at the time it was considered this huge deal, Disney&#8217;s big bet on digital media. The numbers are so small now it&#8217;s laughable. And that was a total failure. A long line of Disney digital acquisitions that did not work. They&#8217;re really snake-bitten there.</p>
+
+<p class="wp-block-paragraph">Kreiz was the guy brought in. That was a really wooly company founded by a group of YouTubers who were dating each other but also harassing each other. And he was basically brought in, first as chairman, and then CEO, to be the grown-up and to sort of whip this thing into shape and sell it off, which he did.</p>
+
+<p class="wp-block-paragraph"><strong>It&#8217;s funny, the MCN era ended because YouTube decided that MCNs shouldn&#8217;t exist, and they just killed them all. Again, another theme that will emerge somewhere down the line in this conversation. Tell me about Ynon.</strong></p>
+
+<p class="wp-block-paragraph">Ynon&#8217;s got lots and lots of media credentials. He ran Endemol back when that was a really important TV production company. He worked with Haim Saban, if any&#8230; No one knows who Haim Saban is anymore.</p>
+
+<p class="wp-block-paragraph"><strong>Mighty Morphin Power Rangers?</strong></p>
+
+<p class="wp-block-paragraph">Exactly. He did Maker and then went to Mattel, where he gets credit for making the <em>Barbie</em> movie.</p>
+
+<p class="wp-block-paragraph">Now, he didn&#8217;t actually make the <em>Barbie</em> movie, the long-running thing, but he put that deal together with Margot Robbie and it was a giant, giant success. So that counts as a big win. He also cut 22 percent of Mattel&#8217;s workforce, sort of immediately upon getting there. That&#8217;s sort of what you bring Ynon Kreiz in to do. You don&#8217;t bring him to have lunch at the Polo Lounge and make nice with talent. You bring him in because you need to whip things into shape and cut things, and that&#8217;s his deal.&nbsp;</p>
+
+<p class="wp-block-paragraph">I was talking to a bunch of people the last few days. He strikes me as a guy who doesn&#8217;t have terribly high EQ. Other folks say, &#8220;No, no, no, no. He&#8217;s tough, but he&#8217;s actually a teddy bear if you get to know him.&#8221; I think most people who get laid off by him won&#8217;t consider him a teddy bear, but that&#8217;s his job: to go do the unpleasant work of finding $6 billion in synergy.&nbsp;</p>
+
+<p class="wp-block-paragraph">Because you are a corporate structure lover, you probably have noticed that while Ynon Kreiz is co-CEO of Skydance, David Ellison is not the other co-CEO. David Ellison is the CEO. So at a minimum, we have a one A and one B thing. But also, let&#8217;s be clear, David Ellison and his father own the company, so ultimately it&#8217;s their deal.&nbsp;</p>
+
+<p class="wp-block-paragraph">I think quite clearly what David Ellison wants to do is be able to have lunch at the Polo Lounge, the San Vicente Bungalows, or wherever they go, and someone will come up to him and say, &#8220;I&#8217;m really angry about this layoff or this movie project that you canceled.&#8221; And he&#8217;ll say, &#8220;Oh, that sounds terrible. You should really talk to Ynon about that. My hands are tied.&#8221; That&#8217;s Ynon Kreiz&#8217;s job.</p>
+
+<p class="wp-block-paragraph"><strong>Ellison wants to hang out with Tom Cruise. This whole thing, from start to finish, is like, one guy wants to hang out with Tom Cruise, and he&#8217;s gonna manufacture a company that will allow him to do that at scale.</strong></p>
+
+<p class="wp-block-paragraph">I will give David Ellison more credit than that. David Ellison, when he ran Skydance, his primary achievement was befriending Tom Cruise. And I&#8217;m sure he liked hanging out with him, but that&#8217;s why Skydance was a company: David Ellison was in the Tom Cruise business. He was in the <em>Mission Impossible</em> business, the <em>Top Gun</em> business.</p>
+
+<p class="wp-block-paragraph">That is what the job of a producer is: getting people to&#8230; You don&#8217;t really do anything as a producer. You just sort of package stuff, and he was able to be in the Tom Cruise business, and that&#8217;s what got him as far as he&#8217;s been able to get. And that is his job. That <em>was</em> his job. Now he&#8217;s got a different job.</p>
+
+<p class="wp-block-paragraph"><strong>There&#8217;s probably a PhD thesis on the kind of personality that accepts a co-CEO title without another co-CEO.</strong></p>
+
+<p class="wp-block-paragraph">I&#8217;ve thought about that from the get-go because of the chain of events — was it last week? — Roger Lynch, CEO of Condé Nast, who said, &#8220;I&#8217;m now the CEO of Mattel.&#8221; For an hour or so, no one knew where Ynon Kreiz was going, and then the rumor was, “Oh, he&#8217;s gonna have a job at Warner&#8217;s. I&#8217;m like, well, what job could he take?&nbsp;</p>
+
+<p class="wp-block-paragraph">He&#8217;s already been the CEO of a big publicly traded company. These guys don&#8217;t usually accept a demotion. And quite clearly what he&#8217;s&#8230; One, they said, &#8220;All right, you&#8217;re the co-CEO,&#8221; so it&#8217;s not a demotion. Two, there are only a handful of these giant media conglomerates. If you can run one, that&#8217;s just a big notch to have on your belt.&nbsp;</p>
+
+<p class="wp-block-paragraph">Number three, they&#8217;re gonna pay him $50 million this year. So that will help salve some of those wounds, and I think everyone sort of acknowledged it. Like, he&#8217;s effectively the COO of Skydance, if you think about it. You just give him a different title so it sounds better.&nbsp;</p>
+
+<p class="wp-block-paragraph"><strong>There&#8217;s some other shuffling under that to do. You&#8217;ve got two movie studios. You have James Gunn running DC really well, actually. I think</strong> <strong><em>Lanterns</em></strong> <strong>is just a bona fide hit for HBO. You&#8217;ve got two news divisions, which we should talk about. How are they going to resolve these conflicts? Are they just gonna pick one team or the other?</strong></p>
+
+<p class="wp-block-paragraph">Yeah. I mean, they&#8217;ve already done that with streaming. Cindy Holland, who pioneered Netflix&#8217;s move into original programming more than a decade ago, was brought in by David Ellison a year ago to run that streaming service. He&#8217;s just bought HBO, which is run by Casey Bloys, very well-regarded, who spent the last year making it clear to everyone that he would not work with or for Cindy Holland.&nbsp;</p>
+
+<p class="wp-block-paragraph">I don&#8217;t think there was personal animus. He&#8217;s just like, &#8220;I already run HBO. Why would I want to share power with somebody else?&#8221; So it seemed pretty clear that David Ellison would pick that horse, and I think he&#8217;s gonna make a bunch of those calls. The people who ran the Warner Bros. studio, which a year ago was the toast of the town, were making tons of money and critical acclaim. This year, they produced <em>Digger</em>, Tom Cruise&#8217;s biggest bomb ever, and they&#8217;re having a rough year. But it was always sort of clear that David Ellison was gonna bring in his people.&nbsp;</p>
+
+<p class="wp-block-paragraph">David Ellison is not an art film guy — he&#8217;s not a guy who&#8217;s gonna allow Paul Thomas Anderson to make <em>One Battle After Another</em> again. He&#8217;s in the <em>Mission Impossible</em> Tom Cruise-iverse, so that&#8217;s not surprising. CNN and CBS, people have been talking about merging those companies almost as long as I&#8217;ve been covering the media, so that&#8217;s not a new idea.</p>
+
+<p class="wp-block-paragraph">They have said, I think wisely for now, &#8220;Well, we&#8217;re not gonna merge those two,” because we just know it&#8217;s a fucking shit storm politically if they touch that stuff. And this is pure speculation, but they might also say, &#8220;Well, we hired Bari Weiss and gave her CBS News to run, and maybe we told her she&#8217;d also get to play with CNN. But it&#8217;s been a rough year over at CBS in the Bari Weiss business, and maybe even if we&#8217;re gonna give it to Bari Weiss a couple years down the road, let&#8217;s not stir that nest right now.”</p>
+
+<p class="wp-block-paragraph">So Mark Thompson, who&#8217;s been running CNN, is gonna continue to run CNN. But again, in the background, no matter what Mark Thompson… He has control of CNN. Ynon Kreiz is still gonna be in there saying, &#8220;I know this is your business, but it&#8217;s really my business, and you need to cut 10 percent or 20 percent,&#8221; or whatever it is, and everyone has to do it.</p>
+
+<p class="wp-block-paragraph">And so in some ways, yes, it matters who&#8217;s running these individual studios and components, but again, the debt is hanging over everything. Everyone is gonna have to work to reduce that debt one way or the other.</p>
+
+<p class="wp-block-paragraph"><strong>The Bari Weiss thesis at CBS, as charitably as I can put it, was that when she showed up, she was like, &#8220;No one trusts the news, and it&#8217;s because we&#8217;re not fair enough, and I&#8217;m gonna do more conservative stuff.&#8221; And that was part of the regulatory arbitrage with the Trump administration. They were gonna change CBS because Donald Trump did not like the coverage on CBS, and that worked or didn&#8217;t work.</strong></p>
+
+<p class="wp-block-paragraph"><strong>But I think we now know that she did not increase trust in CBS News by making it a more conservative-friendly organization. The ratings are down, like precipitously down, such that a lot of people think that she should just be fired and something else should happen. I would —</strong></p>
+
+<p class="wp-block-paragraph">Yeah, I don&#8217;t see that happening.</p>
+
+<p class="wp-block-paragraph"><strong>Well, right, because he&#8217;s gotta do regulatory arbitrage on both sides. We have midterms —</strong></p>
+
+<p class="wp-block-paragraph">And I think he likes Bari Weiss. I think David Ellison is not a political person. I think his father, Larry Ellison, is probably not that political. Tom Dotan in <em>Vanity Fair</em> <a href="https://www.vanityfair.com/story/larry-ellison-profile">just did a profile</a> of Larry Ellison and sort of gets at the idea of how he&#8217;s bought these big media empires. He also owns a chunk of TikTok. Is there a thing here? And his conclusion is no, it&#8217;s not. He really doesn&#8217;t have much politics. But the one thing the Ellison family cares a lot about is Israel. Bari Weiss cares a lot about Israel. That is the one ideological through line there. I think they&#8217;d be loath to sort of cut her loose.</p>
+
+<p class="wp-block-paragraph">And also, it&#8217;s been a clusterfuck over at CBS, but I don&#8217;t know that she&#8217;s done a worse job running it than anybody else has recently. It&#8217;s just that there&#8217;s systemic decline. Now, she may make it even worse. It&#8217;s possible. And as a journalist, you may not like what she&#8217;s doing. But if you&#8217;re running the business, I don&#8217;t know that she has made it <em>that</em> much worse. I think the Ellisons probably don&#8217;t like the headaches and headlines generated by it, but I also don&#8217;t think they care that much.</p>
+
+<p class="wp-block-paragraph"><strong>I mean, I go on TikTok, and I see any clip from any</strong> <strong><em>60 Minutes</em></strong> <strong>or CBS News account, and all of the comments are, &#8220;You ruined this. I blame Bari Weiss. I can&#8217;t trust you.&#8221;</strong></p>
+
+<p class="wp-block-paragraph"><strong>That is a decline in trust from where they were before, when no one knew who was running CBS News. I would actually —.</strong></p>
+
+<p class="wp-block-paragraph">I think you should not know who the heads of network news are.</p>
+
+<p class="wp-block-paragraph"><strong>Yeah. I think it&#8217;s bad that the kids on TikTok are like, &#8220;I hate this one person that has nothing to do with the video clip I&#8217;m seeing now.&#8221;</strong></p>
+
+<p class="wp-block-paragraph"><strong>I bring that up because of the TikTok of it all. The idea that TikTok was a national security threat, that the United States Congress voted unanimously to ban it, that Biden voted to ban it, but then he knew it was political suicide, so he kicked the imposition of the ban to the Trump administration.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>All of that, as you peel apart the reporting, what did members of Congress see in their closed-door meetings? It comes down, as far as any of the reporting I&#8217;ve ever seen, to how they thought it was spreading pro-Palestinian propaganda, anti-Israel propaganda. Now the Ellisons own it.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>As you said, they care very deeply about the issue of Israel, and I can&#8217;t say that their ownership of TikTok has meaningfully moved the needle on how people feel about the war in Gaza in any way, shape, or form. Did they try?&nbsp;</strong></p>
+
+<p class="wp-block-paragraph">Perhaps people were disappointed with Israel&#8217;s conduct <em>prior</em> to the invention of TikTok. Perhaps there are other reasons they may not be concerned. And, you know, the reason Congress voted for this. It’s maybe the only thing Congress has passed in years is this rule saying China can&#8217;t own TikTok, which they then immediately forgot about during the first year of the Trump administration.</p>
+
+<p class="wp-block-paragraph">I do think the China of it all was meaningful for some people, but they clearly also just didn&#8217;t care. It’s kinda wild to see Congress pass a bill that becomes a law and then not try to enforce it at all.</p>
+
+<p class="wp-block-paragraph"><strong>They knew it was suicide. I don&#8217;t know if you remember this, but there was a day when it was the House committee, and AOC was on this committee, and they went into a SCIF to view some intelligence about TikTok. They all came out and voted unanimously to ban this thing, and no one for months could figure out what they saw in there.</strong></p>
+
+<p class="wp-block-paragraph"><strong>And it was like, &#8220;Did you see a picture of Chinese intelligence services turning the knobs in the algorithm to poison the minds of American youth?&#8221; And they&#8217;re like, &#8220;No, no, no.&#8221;&nbsp;</strong></p>
+
+<p class="wp-block-paragraph">“They showed us some videos.”</p>
+
+<p class="wp-block-paragraph"><strong>Yeah, it was like, &#8220;What, what are you looking at in there?&#8221; And then we just sold it to someone who may or may not have some political leanings, but they have some control that is equivalent to the Chinese control, which was so scary that we had to ban this platform.</strong></p>
+
+<p class="wp-block-paragraph"><strong>I&#8217;m bringing this all up because that is the thing that is reducing trust in the news media. It is not the news media itself, right? The news media makes its mistakes in whatever ways it makes its mistakes. But it&#8217;s a bunch of influencers on social platforms who start every video by saying, &#8220;Here&#8217;s what they&#8217;re not telling you,&#8221; which is actually the mechanism of reducing trust.</strong></p>
+
+<p class="wp-block-paragraph"><strong>And then they read you</strong> <strong><em>The New York Times.</em></strong> <strong>As somebody who now makes these videos —</strong></p>
+
+<p class="wp-block-paragraph">“No one&#8217;s covering this! Let me read you a <em>New York Times</em> story about it.”</p>
+
+<p class="wp-block-paragraph">The other thing that has reduced trust in the media is that Republicans, for 40 years, have been saying the media is biased. And if you say something for 40 years and you&#8217;re one of the two parties running the country, I think that message sort of seeps in, before TikTok, before social media.</p>
+
+<p class="wp-block-paragraph"><strong>But if I had to pick the two things that are the biggest threats to the businesses that David Ellison now owns, I would pick AI, and I would pick social media, and those are the other big investments of the Ellison family. Is this all just an elaborate hedge, or does he have a plan to use TikTok to amplify his content? To market these movies?</strong></p>
+
+<p class="wp-block-paragraph">I don&#8217;t think they have a plan. One of the through lines when David Ellison was buying Paramount was that David Ellison&#8217;s a successful producer. You add his dad, who runs Oracle; he&#8217;s got a lot of tech know-how. And also, David Ellison is not just a movie producer; he&#8217;s a technologist. This was the thing they stood up and said at a press conference. And he said, &#8220;Yes, yes, I was mentored by Steve Jobs.&#8221; He wasn&#8217;t mentored by Steve Jobs.&nbsp;</p>
+
+<p class="wp-block-paragraph">But anyway, the whole premise was we&#8217;re gonna techify this and cloud and Oracle. And maybe they could save $10, $20, maybe $100 million on sort of back-office-y things by swapping in an Oracle contract for something else. Although, I think in the normal world, you&#8217;d say just because your dad owns this company, we don&#8217;t get to bring it in as a technology company for this publicly traded company. Whatever. But there&#8217;s never been any indication that they&#8217;ve got any other plan other than shaving some costs.&nbsp;</p>
+
+<p class="wp-block-paragraph">I don&#8217;t think David Ellison is ideologically inclined. Maybe he will see something outrageous on TikTok that he doesn&#8217;t like and say, &#8220;Hey, Dad, could you bring that down?&#8221; I don&#8217;t even know if his dad has the capacity to bring something down. You know, TikTok is a black box. We don&#8217;t actually know how the algorithm works, who actually controls it, and who can steer it.</p>
+
+<p class="wp-block-paragraph"><strong>The potential for TikTok content to end up on whatever this new Paramount HBO streaming service is high.</strong></p>
+
+<p class="wp-block-paragraph">Mm-hmm.</p>
+
+<p class="wp-block-paragraph"><strong>I know the other big media companies have long looked at the user-generated content platforms and been envious of their cost structure. YouTube barely pays any money for its content, and it&#8217;s destroying this industry.</strong></p>
+
+<p class="wp-block-paragraph">YouTube pays the most. YouTube pays 55 percent. Everyone else pays zero percent.</p>
+
+<p class="wp-block-paragraph"><strong>Right. But for an average creator on YouTube, you&#8217;re getting nothing, effectively.</strong></p>
+
+<p class="wp-block-paragraph">I&#8217;m just saying it is a great business model, and the Reels and TikTok business models are much better than the YouTube one because they pay zero percent for content.</p>
+
+<p class="wp-block-paragraph"><strong>There&#8217;s something there. Like, Disney has made some noise about putting creator videos in Disney+. They&#8217;ve all looked at it. They&#8217;ve all talked about it. This one seems easy, right? It&#8217;s HBO Max plus your favorite commentary about whatever HBO Max show you&#8217;re watching, sourced directly from TikTok, right here. We&#8217;re all gonna integrate it.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>Maybe this is way harder than I&#8217;m making it sound.</strong></p>
+
+<p class="wp-block-paragraph">I think they all believe that… They all move in herds, right? All these companies always do. We&#8217;re all doing vertical video now. And you&#8217;re like, well, vertical video, yes, people like the format. What they really like is unlimited free content. Which, again, TikTok doesn&#8217;t pay anything for.</p>
+
+<p class="wp-block-paragraph">So you, Paramount, or you, Peacock, or you, Disney, you are not in the business of getting free content from people. You are still paying for stuff, and also you care about your brand still, so you don&#8217;t wanna just have a platform where anyone can watch anything. And I think that is kind of the fundamental question for all these media companies.&nbsp;</p>
+
+<p class="wp-block-paragraph">You&#8217;re not platforms. The dominant media companies are platforms. Can you turn yourself into a platform? Should you turn yourself into a platform? Should you just say, &#8220;Nope, what we make is super high-quality, specific stuff that people value as a brand, and maybe that&#8217;s just gonna be our place, and we&#8217;re not gonna compete with the YouTubes of the world&#8221;?</p>
+
+<p class="wp-block-paragraph">Netflix seems to be going in that direction. They&#8217;re gonna be more platform-y. I do think you&#8217;ll probably see not just Paramount, but every company try to say, &#8220;Oh, we&#8217;re a platform, too.&#8221; I don&#8217;t think it will be successful, though</p>
+
+<p class="wp-block-paragraph"><strong>Do you foresee a tighter connection between Skydance and TikTok? These are all companies operated by a family. They&#8217;re not close right now. They could get closer.</strong></p>
+
+<p class="wp-block-paragraph">I don&#8217;t know that TikTok cares, right? TikTok, which is still really run by ByteDance, I don&#8217;t know that they care about making Larry Ellison that much happier. I don&#8217;t think that&#8217;s the direction of travel here.</p>
+
+<p class="wp-block-paragraph"><strong>I&#8217;m only curious because I&#8217;m watching Meta just relentlessly promote Muse, its AI agent, across all of its platforms. OpenAI launches Dots, and where do they go to buy ads? They go buy ads on Meta platforms. And like, this is a</strong> <a href="https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free"><strong>massive structural advantage for Meta</strong></a><strong>, right? They are not buying their own ad space.</strong></p>
+
+<p class="wp-block-paragraph"><strong>And if I ran a movie studio and I had to put out 30 movies per year and pay to market them to try to get these kids to go to a theater, I&#8217;d be like, &#8220;Boy, I could really use that TikTok juice.”</strong></p>
+
+<p class="wp-block-paragraph">Do you know who&#8217;s winning the microdrama wars in the US? I don&#8217;t know if you&#8217;ve paid attention to microdramas yet, but they are what they sound like.&nbsp;</p>
+
+<p class="wp-block-paragraph"><a href="https://www.theverge.com/entertainment/1003297/microdramas-neighbours-epis-roseberry-reelshort-dramabox-vertical-video"><strong>Oh yes</strong></a><strong>.</strong></p>
+
+<p class="wp-block-paragraph">Meta. Meta is not in the microdrama business. Meta is in the &#8220;Oh, you wanna advertise microdramas? Come talk to us.&#8221;</p>
+
+<p class="wp-block-paragraph">So they are getting all of the microdrama money right now. It&#8217;s a great place to be if you&#8217;re, if you&#8217;re Meta. And by the way, the microdrama companies are uploading their content to Meta as ads, so Meta both gets paid for the advertising and then has free engaging content that it can show its users. It&#8217;s a great place to be.</p>
+
+<p class="wp-block-paragraph"><strong>If only Meta cared about its actual businesses instead of trying to win in AI agents. The amount that they would succeed would be out of control. That&#8217;s another episode of the show.&nbsp;</strong></p>
+
+<p class="wp-block-paragraph"><strong>Let me end with the conspiracy theory that I brought up at the beginning. There was a bidding process. David Zaslav’s initial plan was to split Discovery into two, to sell the cable networks to whoever was dumb enough to buy them. Netflix really wanted Warner, and they bid. They were actually the announced winners until David Ellison did his regulatory arbitrage.</strong></p>
+
+<p class="wp-block-paragraph">They <a href="https://www.theverge.com/news/838781/netflix-warner-bros-discover-bids-buyout">won the deal</a> in December of last year. They <a href="https://www.theverge.com/streaming/885691/warner-bros-says-paramounts-latest-offer-is-superior-to-its-current-deal-with-netflix">gave up on it</a> in February of this year. So they won for a couple of months.</p>
+
+<p class="wp-block-paragraph"><strong>David is very good at just kicking the door back open. He made it happen.</strong></p>
+
+<p class="wp-block-paragraph">As Logan Roy said, &#8220;Congratulations on saying the biggest number.”</p>
+
+<p class="wp-block-paragraph"><strong>No one has succeeded in buying Warner. You could argue that Netflix did nothing but make the price so high that it was unsustainable, that they had to create massive amounts of leverage on this deal, pay an unsustainable amount of debt. And at the end of this all, Ted Sarandos is gonna be standing there waiting to buy, yet again, the distressed assets of Warner Bros. at a fire-sale price.</strong></p>
+
+<p class="wp-block-paragraph"><strong>Do you think that&#8217;s likely?</strong></p>
+
+<p class="wp-block-paragraph">I think Netflix, and other people as well, will definitely be in the business of, &#8220;Oh, Ynon Kreiz fired you? Ynon Kreiz told you you couldn&#8217;t make your movie or television show? Come talk to us.&#8221; Which, by the way, a lot of other companies were doing to Netflix back in 2022 when Netflix went through its retrenchment.</p>
+
+<p class="wp-block-paragraph">So I think that is likely but also standard, right? You just have this turmoil. You have a standard thing in any media company of, &#8220;Oh, this project this other guy brought in, we&#8217;re not doing that anymore. That was a failure. We&#8217;re doing new stuff. And oh, by the way, if the last guy&#8217;s project turns out to be successful, we&#8217;ll take credit for that. But we&#8217;re gonna bring in new stuff.&#8221;&nbsp;</p>
+
+<p class="wp-block-paragraph">I don&#8217;t think Ted Sarandos was playing 3D/4D chess here. I think they thought this was a good idea. But I think the much more obvious answer is Wall Street hated the idea. Wall Street kept telling Netflix, &#8220;We hate this. We hate this. Please don&#8217;t spend $80 billion on this. And also, by the way, you&#8217;re gonna have a tough time getting this through regulation.&#8221; And I think Ted Sarandos eventually said, &#8220;Okay, you&#8217;re right.&#8221;&nbsp;</p>
+
+<p class="wp-block-paragraph">I&#8217;ve seen him speak publicly about this and in other venues. He seems quite upset about the fact that he didn&#8217;t get this deal. I think there are also feelings involved here. But I don&#8217;t think this was all a master plan on their part.&nbsp;</p>
+
+<p class="wp-block-paragraph">I think they went for it. They didn&#8217;t get it. They&#8217;re bummed out. They&#8217;re gonna move on.</p>
+
+<p class="wp-block-paragraph"><strong>I think an angry, aggressive Netflix might actually be the best thing that could happen to Hollywood right now, because they were headed towards their own vertical video slop fest, and maybe now they&#8217;re not going to do that.</strong></p>
+
+<p class="wp-block-paragraph">I think that&#8217;s the question for — I mean, it&#8217;s a question for everybody. But for Netflix, it&#8217;s: you guys have been super successful for a couple of decades by doing one thing. Well, initially you were doing DVD by mail, then you went to streaming, and that&#8217;s all you did. And you didn&#8217;t ever sell movies. You didn&#8217;t do a la carte stuff. You didn&#8217;t do advertising. You didn&#8217;t do sports.&nbsp;</p>
+
+<p class="wp-block-paragraph">Now you do advertising. Now you do sports. Now you&#8217;re doing games. Now you&#8217;re doing podcasts. Maybe you&#8217;re gonna integrate with other kinds of TV stuff. And so this laser focus that Netflix had, which proved very successful, they are moving away from. They may have to move away from it. They may have sort of reached the limit of that growth.&nbsp;</p>
+
+<p class="wp-block-paragraph">But it gets trickier and trickier the more things you add to that stack to make sure you&#8217;re doing a good job. And I think that is the real challenge for them.</p>
+
+<p class="wp-block-paragraph"><strong>We&#8217;ve been at it for about 45 minutes. I still don&#8217;t know how David Ellison is gonna make one more dollar than he made last year. Have you come to any conclusions?</strong></p>
+
+<p class="wp-block-paragraph">We&#8217;re recording this Tuesday morning. Tuesday night, like at 7:30? I don&#8217;t know why they&#8217;re doing it at 7:30 or 8:30. They&#8217;re gonna have <a href="https://deadline.com/2026/10/skydance-ceo-press-conference-post-merger-david-ellison-1237148751/">a press conference</a>, the first Skydance press conference. So if we re-record this on Wednesday, maybe all this will be answered, but maybe it won&#8217;t be answered.</p>
+
+<p class="wp-block-paragraph"><strong>Well, Ynon will be there. He&#8217;ll be there wielding his scythe.</strong></p>
+
+<p class="wp-block-paragraph">It&#8217;s gonna be interesting because he is not gonna be a high-profile person, but I think a lot of people are gonna learn his name anyway. And this is a thing that Hollywood does, right? You find a person to blame for your troubles.&nbsp;</p>
+
+<p class="wp-block-paragraph">Sometimes it&#8217;s a company like Netflix, sometimes it&#8217;s an evil Jason Kilar. Remember when he was running WarnerMedia for a minute or two? And everyone said, &#8220;You&#8217;re wrecking the business. Thank God we have David Zaslav, who&#8217;s an authentic media guy to come in and save us.&#8221;&nbsp;</p>
+
+<p class="wp-block-paragraph">And then, you know, six months later, David Zaslav&#8217;s name is an epithet. Presumably there&#8217;ll be a new epithet associated with this company.</p>
+
+<p class="wp-block-paragraph"><strong>Yeah. Well, this deal is gonna wind its way through. We&#8217;re gonna check in on it a lot. We&#8217;re gonna have you back, Peter. Thank you so much for being on</strong> <strong><em>Decoder</em></strong><strong>.</strong></p>
+
+<p class="wp-block-paragraph">See you, Nilay. Thanks.</p>
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+<pubDate>2026-10-09T16:18:04-04:00</pubDate>
+</item>
+<item>
+<title>LG’s RGB LED TV is good for certain situations, but an OLED is better</title>
+<link>https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review</link>
+<guid>https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="LG MRGB95B RGB LED TV on a TV stand showing a dog being groomed." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268807_LG_MRGB95B_RGB_LED_TV_review_JHIGGINS_3.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	The LG’s picture is bright and punchy, but its panel is very reflective.	</figcaption>
+</figure>
+<p class="has-drop-cap wp-block-paragraph">When it comes to TVs, the LG name has long been synonymous with OLEDs, <a href="https://www.flatpanelshd.com/news.php?subaction=showfull&amp;id=1771488870">continually leading Samsung and Sony</a> as the top OLED manufacturer. But 2026 is all about RGB LED TVs. Almost every major company has released models with the new technology - including LG and its $3,600 75-inch Micro RGB evo MRGB95B that I've been testing. And while LG's RGB LED TV benefits from the brightness and color capability the technology provides, it has issues I couldn't overlook that its less expensive competitors don't.</p>
+<p class="wp-block-paragraph">The MRGB95B comes in three sizes, with the 75-inch being the smallest. It has four HDMI 2.1 ports, supports Dolby Vision - although not Dolby  …</p>
+<p><a href="https://www.theverge.com/tech/1008957/lg-mrgb95b-rgb-led-tv-review">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-09T18:49:57-04:00</pubDate>
+</item>
+<item>
+<title>AI agent makers are promising privacy — will they deliver?</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots</link>
+<guid>https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="Illustration of a pixelated key next to a padlock and chain, implying online data security." src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to "set a new standard for privacy in frontier AI." OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. Yet Muse itself, a couple of months earlier, had launched as a supposedly safer alternative to predecessor OpenClaw - with CEO Mark Zuckerberg <a href="https://x.com/finkd/status/2097402102477701478?s=20">promising</a> it was "built from the ground up for privacy and security."</p>
+<p class="wp-block-paragraph">In an age when companies hoard customers' personal data and cyberattacks are a dime a dozen, AI labs are trying to convince user …</p>
+<p><a href="https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-09T17:26:33-04:00</pubDate>
+</item>
+<item>
+<title>The techlash has gone Hollywood</title>
+<link>https://www.theverge.com/tech/1008836/social-reckoning-cupertino-techlash-installer</link>
+<guid>https://www.theverge.com/tech/1008836/social-reckoning-cupertino-techlash-installer</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Installer-147.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">Hi, friends! Welcome to <em>Installer</em> No. 147, your guide to the best and <em>Verge</em>-iest stuff in the world. (If you're new here, welcome, I missed you all, and also you can read all the old editions at the <a href="https://www.theverge.com/installer-newsletter"><em>Installer</em> homepage</a>.) </p>
+<p class="wp-block-paragraph">I'm back from parental leave! Part time, anyway. Thanks to everyone who sent well wishes and tips for managing three kids. I need 'em all. This week, I've been reading about <a href="https://thebaffler.com/outbursts/bad-manors-wagner"><strong>McMansions</strong></a> and <a href="https://www.mlive.com/business/2026/10/outmaneuvered-outmatched-and-outspent-how-data-centers-are-overwhelming-small-town-america.html"><strong>data centers</strong></a> and <a href="https://www.gq.com/story/sports-cards-gambling"><strong>sports cards</strong></a> <strong></strong>and <a href="https://www.wired.com/story/icann-top-level-domains-meow/"><strong>ICANN</strong></a>, trying to run my life on <a href="https://www.anrdoezrs.net/click-101881227-12839518?url=https%3A%2F%2Fwww.dell.com%2Fen-us%2Fshop%2Flaptop-computers%2Fspd%2Fxps13dx13267"><strong>the Dell XPS Googlebook</strong></a>, testing a new and <a href="https://www.amazon.com/dp/B0FXJ8VZ39?th=1&amp;linkCode=ll2&amp;tag=vergenewsletter-20&amp;linkId=d63c4a5c47d46b22793ba74dec5bc218&amp;language=en_US&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl"><strong>very purple Kindle</strong></a>, reinventing my whole note-taking system now that Google Docs can <a href="https://www.techrepublic.com/article/news-google-docs-vs-obsidian/"><strong>handle Markdown files</strong></a>, listening to episode  …</p>
+<p><a href="https://www.theverge.com/tech/1008836/social-reckoning-cupertino-techlash-installer">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-09T12:53:54-04:00</pubDate>
+</item>
+<item>
+<title>The Telo MT1 is a big truck trapped in a tiny truck’s body</title>
+<link>https://www.theverge.com/transportation/1005502/telo-mt1-review-ev-tiny-truck</link>
+<guid>https://www.theverge.com/transportation/1005502/telo-mt1-review-ev-tiny-truck</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="A small truck parked in front of a harbor at dusk." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/telo_lifestyle_07.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="has-drop-cap wp-block-paragraph">I'm bouncing down the road in San Carlos, California, zipping past behemoth tech companies like EA and Oracle, in America's smallest electric truck.</p>
+<p class="wp-block-paragraph"><a href="https://www.telotrucks.com/">The Telo MT1</a> (which stands for "mini truck") unquestionably turns heads because it looks so <a href="https://www.theverge.com/2023/6/13/23757902/telo-truck-electric-pickup-annoucement">remarkably different</a> from everything else on the market right now. </p>
+<p class="wp-block-paragraph">It has a nearly cab-over design, meaning that front-seat passengers sit almost directly over the front axle. It looks a lot like a Japanese kei truck, with a super-short nose and four doors. People stop to stare as we sit at stoplights or roll silently past.</p>
+<p class="wp-block-paragraph">The interior is surprisingly spacious, and while the seats are firm, they're n …</p>
+<p><a href="https://www.theverge.com/transportation/1005502/telo-mt1-review-ev-tiny-truck">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-07T13:24:41-04:00</pubDate>
+</item>
+<item>
+<title>The director of Fjord takes the &amp;#8216;risky position&amp;#8217; of moderator</title>
+<link>https://www.theverge.com/entertainment/1008748/fjord-cristian-mungiu-interview</link>
+<guid>https://www.theverge.com/entertainment/1008748/fjord-cristian-mungiu-interview</guid>
+<content:encoded><![CDATA[
+<figure>
+
+<img alt="" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/6dcdc551-c3ac-483a-88b4-2ec76d2e9874.png?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Renata Reinsve (top center) and Sebastian Stan (top right) play religious Romanians living in Norway. | FLC Press	</figcaption>
+</figure>
+<p class="wp-block-paragraph">Cristian Mungiu's sixth feature, <em>Fjord</em>, concerns a family on trial. They seem like good people, God-fearing. They've just moved from Romania to a small hamlet nestled in the fjords of rural Norway. There is Mamma (Renate Reinsve), Tata (a bald and bespectacled Sebastian Stan), and their passel of children. They are an openly religious and proselytizing family. The parents, unfashionably, believe in punitive  consequences to actions. They would never be accused of gentle parenting. All ought to be well, only Norway in 2026 is extravagantly suspicious of the devout - their famous tolerance reserved for the secular. </p>
+<p class="wp-block-paragraph"><em>Fjord</em> starts quietly and b …</p>
+<p><a href="https://www.theverge.com/entertainment/1008748/fjord-cristian-mungiu-interview">Read the full story at The Verge.</a></p>
+]]></content:encoded>
+<pubDate>2026-10-09T16:57:09-04:00</pubDate>
+</item>
+</channel>
+</rss>
