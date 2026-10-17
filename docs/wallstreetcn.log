@@ -1,0 +1,36 @@
+2026-10-17 20:15:35,823 - INFO - ------------------------------------------------------
+2026-10-17 20:15:35,823 - INFO - 开始: 2026-10-17 20:15:35.823283
+2026-10-17 20:15:35,823 - INFO - 现有条目: 20
+2026-10-17 20:15:36,154 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,154 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 151
+2026-10-17 20:15:36,154 - INFO - 添加: [Economic damage from high energy prices and rising borrowing costs is mounting globally, splitting the world into a new set of winners and losers as countries with limited exposure to the AI boom fall behind]
+2026-10-17 20:15:36,281 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,282 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 131
+2026-10-17 20:15:36,282 - INFO - 添加: [ECB’s Lane Not Seeing ‘Noticeable’ Pickup in Eurozone Wages]
+2026-10-17 20:15:36,350 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,350 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 181
+2026-10-17 20:15:36,350 - INFO - 添加: [Canada Building Permits Rebound in August]
+2026-10-17 20:15:36,461 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,461 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 89
+2026-10-17 20:15:36,461 - INFO - 添加: [Heard on the Street: Mortgage rates above 7% might not be enough to crack home values if owners hold the line]
+2026-10-17 20:15:36,520 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,520 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 111
+2026-10-17 20:15:36,520 - INFO - 添加: [Heard on the Street: Lennar and KB Home both say they are facing tougher competition from regular owners who are more motivated to sell]
+2026-10-17 20:15:36,644 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,644 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 126
+2026-10-17 20:15:36,645 - INFO - 添加: [Fed Chairman Kevin Warsh declined to endorse or push back on colleagues’ signals that officials are in no rush to raise interest rates this month, saying the central bank was no longer in the business of previewing its decisions]
+2026-10-17 20:15:36,724 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,724 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 162
+2026-10-17 20:15:36,724 - INFO - 添加: [Fed’s Bowman Says Inflation Above Goal, But No Urgency to Act]
+2026-10-17 20:15:36,823 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,823 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 95
+2026-10-17 20:15:36,823 - INFO - 添加: [Inflation is cooler than it was four years ago, but voters are still paying much higher prices]
+2026-10-17 20:15:36,902 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,902 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 83
+2026-10-17 20:15:36,903 - INFO - 添加: [U.S. consumer spending is on the rise despite frustrations with persistent inflation and gloomy views about the economy]
+2026-10-17 20:15:36,999 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-17 20:15:36,999 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 83
+2026-10-17 20:15:36,999 - INFO - 添加: [For years, China flooded Europe with exports that were crushing profits and killing jobs, while warning the bloc not to fight back. Now, Beijing is backing down, at least temporarily.]
+2026-10-17 20:15:36,999 - INFO - 跳过: [AI Investment Boom to Drive Fastest Global Trade Growth Since Financial Crisis, WTO Forecasts]
+2026-10-17 20:15:36,999 - INFO - 添加条目: 10
+2026-10-17 20:15:37,006 - INFO - 完成: 2026-10-17 20:15:37.006311
