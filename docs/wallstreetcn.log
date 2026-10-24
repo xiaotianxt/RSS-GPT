@@ -1,0 +1,36 @@
+2026-10-24 17:03:50,282 - INFO - ------------------------------------------------------
+2026-10-24 17:03:50,282 - INFO - 开始: 2026-10-24 17:03:50.282559
+2026-10-24 17:03:50,282 - INFO - 现有条目: 20
+2026-10-24 17:03:50,601 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,601 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 181
+2026-10-24 17:03:50,601 - INFO - 添加: [The world’s richest people have discovered a new way to give their money away: a couple hundred bucks to one kid at a time.]
+2026-10-24 17:03:50,667 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,667 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 167
+2026-10-24 17:03:50,667 - INFO - 添加: [Canada Retail Sales Look to Build on August’s Rebound]
+2026-10-24 17:03:50,727 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,727 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 130
+2026-10-24 17:03:50,727 - INFO - 添加: [Consumer Sentiment Declined Slightly in October]
+2026-10-24 17:03:50,780 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,780 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 133
+2026-10-24 17:03:50,781 - INFO - 添加: [American Express is slashing around 3,500 jobs globally in an attempt to put a cap on rising costs]
+2026-10-24 17:03:50,834 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,834 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 151
+2026-10-24 17:03:50,834 - INFO - 添加: [Economic damage from high energy prices and rising borrowing costs is mounting globally, splitting the world into a new set of winners and losers as countries with limited exposure to the AI boom fall behind]
+2026-10-24 17:03:50,896 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,896 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 146
+2026-10-24 17:03:50,896 - INFO - 添加: [U.S. Housing Starts Dropped Again in September]
+2026-10-24 17:03:50,956 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:50,956 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 181
+2026-10-24 17:03:50,956 - INFO - 添加: [Canada Building Permits Rebound in August]
+2026-10-24 17:03:51,013 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:51,013 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 186
+2026-10-24 17:03:51,013 - INFO - 添加: [Philippines Central Bank Surprises With Big Rate Hike to Combat Inflation]
+2026-10-24 17:03:51,064 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:51,064 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 105
+2026-10-24 17:03:51,064 - INFO - 添加: [Consumer Sentiment Ticked Lower in September]
+2026-10-24 17:03:51,109 - ERROR - 摘要生成失败: Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}]
+2026-10-24 17:03:51,109 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 112
+2026-10-24 17:03:51,109 - INFO - 添加: [Capital Account: President Trump once called “tariff” the most beautiful word in the dictionary. He has somehow made it one of the most hated words in politics, writes @greg_ip]
+2026-10-24 17:03:51,109 - INFO - 跳过: [Eurozone Swung to Goods-Trade Deficit in August]
+2026-10-24 17:03:51,109 - INFO - 添加条目: 10
+2026-10-24 17:03:51,112 - INFO - 完成: 2026-10-24 17:03:51.112761
