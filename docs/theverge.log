@@ -1,0 +1,17 @@
+2026-11-06 03:57:05,608 - INFO - ------------------------------------------------------
+2026-11-06 03:57:05,608 - INFO - 开始: 2026-11-06 03:57:05.608907
+2026-11-06 03:57:05,608 - INFO - 现有条目: 19
+2026-11-06 03:57:05,881 - ERROR - 摘要生成失败: Error code: 404
+2026-11-06 03:57:05,881 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 582
+2026-11-06 03:57:05,881 - INFO - 添加: [OpenAI is stepping back from NDAs for data center projects]
+2026-11-06 03:57:05,976 - ERROR - 摘要生成失败: Error code: 404
+2026-11-06 03:57:05,976 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 640
+2026-11-06 03:57:05,976 - INFO - 添加: [Airbnb is working on an AI travel agent]
+2026-11-06 03:57:06,081 - ERROR - 摘要生成失败: Error code: 404
+2026-11-06 03:57:06,081 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 637
+2026-11-06 03:57:06,081 - INFO - 添加: [The New York Times is in talks to buy Letterboxd for around $330 million]
+2026-11-06 03:57:06,193 - ERROR - 摘要生成失败: Error code: 404
+2026-11-06 03:57:06,193 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 621
+2026-11-06 03:57:06,193 - INFO - 添加: [T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;]
+2026-11-06 03:57:06,193 - INFO - 添加条目: 4
+2026-11-06 03:57:06,199 - INFO - 完成: 2026-11-06 03:57:06.199486
