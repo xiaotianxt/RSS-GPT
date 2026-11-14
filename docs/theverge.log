@@ -1,0 +1,23 @@
+2026-11-14 16:11:47,435 - INFO - ------------------------------------------------------
+2026-11-14 16:11:47,436 - INFO - 开始: 2026-11-14 16:11:47.435994
+2026-11-14 16:11:47,436 - INFO - 现有条目: 15
+2026-11-14 16:11:47,732 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:47,732 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 15157
+2026-11-14 16:11:47,733 - INFO - 添加: [Here are our favorite deals from REI’s giant Holiday Sale]
+2026-11-14 16:11:47,880 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:47,880 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 71244
+2026-11-14 16:11:47,880 - INFO - 添加: [The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs]
+2026-11-14 16:11:47,977 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:47,977 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 656
+2026-11-14 16:11:47,977 - INFO - 添加: [Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print]
+2026-11-14 16:11:48,059 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:48,059 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 566
+2026-11-14 16:11:48,059 - INFO - 添加: [This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers]
+2026-11-14 16:11:48,166 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:48,166 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 496
+2026-11-14 16:11:48,166 - INFO - 添加: [A gadget to make your dumb house smarter]
+2026-11-14 16:11:48,266 - ERROR - 摘要生成失败: Error code: 404
+2026-11-14 16:11:48,266 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 668
+2026-11-14 16:11:48,266 - INFO - 添加: [Jensen Huang and the decline of the visionary showman founder CEO]
+2026-11-14 16:11:48,267 - INFO - 添加条目: 6
+2026-11-14 16:11:48,272 - INFO - 完成: 2026-11-14 16:11:48.272530
