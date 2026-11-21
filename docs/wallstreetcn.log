@@ -1,0 +1,36 @@
+2026-11-21 13:49:33,954 - INFO - ------------------------------------------------------
+2026-11-21 13:49:33,954 - INFO - 开始: 2026-11-21 13:49:33.954624
+2026-11-21 13:49:33,954 - INFO - 现有条目: 20
+2026-11-21 13:49:34,238 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,238 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 191
+2026-11-21 13:49:34,238 - INFO - 添加: [Canada Retail Sales Pull Back After 0.8% Rise in September]
+2026-11-21 13:49:34,360 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,360 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 122
+2026-11-21 13:49:34,360 - INFO - 添加: [Eurozone Wage Growth Accelerates, But Remains Modest]
+2026-11-21 13:49:34,483 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,483 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 194
+2026-11-21 13:49:34,483 - INFO - 添加: [Cost Pressures Already in Pipeline to Fuel Higher Inflation]
+2026-11-21 13:49:34,610 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,610 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 203
+2026-11-21 13:49:34,610 - INFO - 添加: [BOE Should Raise Key Rate to Around 5%, U.K. Economic Think Tank Says]
+2026-11-21 13:49:34,746 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,746 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 121
+2026-11-21 13:49:34,746 - INFO - 添加: [Eurozone Inflation Rises to 4%, Driven by Energy Costs]
+2026-11-21 13:49:34,867 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,867 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 159
+2026-11-21 13:49:34,867 - INFO - 添加: [U.S. Housing Starts Climb Past Forecasts in October]
+2026-11-21 13:49:34,988 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:34,988 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 69
+2026-11-21 13:49:34,988 - INFO - 添加: [British business bank OakNorth, whose shareholders include Jared Kushner’s Affinity Partners investment firm and the SoftBank Vision Fund, received a full-charter U.S. banking license]
+2026-11-21 13:49:35,134 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:35,134 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 162
+2026-11-21 13:49:35,134 - INFO - 添加: [U.K. Consumer Confidence Picks Up Despite Rising Headwinds]
+2026-11-21 13:49:35,246 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:35,246 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 129
+2026-11-21 13:49:35,246 - INFO - 添加: [Canada’s Trade Surplus Widens as Oil, Gold Drive Record Exports]
+2026-11-21 13:49:35,358 - ERROR - 摘要生成失败: Error code: 404
+2026-11-21 13:49:35,358 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 140
+2026-11-21 13:49:35,358 - INFO - 添加: [U.S. Trade Deficit Contracted in September]
+2026-11-21 13:49:35,358 - INFO - 跳过: [Capital Account: President Trump once called “tariff” the most beautiful word in the dictionary. He has somehow made it one of the most hated words in politics, writes @greg_ip]
+2026-11-21 13:49:35,358 - INFO - 添加条目: 10
+2026-11-21 13:49:35,363 - INFO - 完成: 2026-11-21 13:49:35.363648
