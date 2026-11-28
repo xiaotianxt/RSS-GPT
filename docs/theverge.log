@@ -1,0 +1,17 @@
+2026-11-28 14:40:30,427 - INFO - ------------------------------------------------------
+2026-11-28 14:40:30,427 - INFO - 开始: 2026-11-28 14:40:30.427483
+2026-11-28 14:40:30,427 - INFO - 现有条目: 15
+2026-11-28 14:40:30,890 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:30,890 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 782
+2026-11-28 14:40:30,890 - INFO - 添加: [The Alexa Photo Frame is the Echo Show without the bits you hate]
+2026-11-28 14:40:31,028 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,028 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 34158
+2026-11-28 14:40:31,028 - INFO - 添加: [Almost every great Black Friday deal is still happening this weekend]
+2026-11-28 14:40:31,099 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,099 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 711
+2026-11-28 14:40:31,099 - INFO - 添加: [Here’s how to make that new Black Friday TV look its best]
+2026-11-28 14:40:31,224 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,224 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 34783
+2026-11-28 14:40:31,224 - INFO - 添加: [The absolute best Black Friday deals you can still get]
+2026-11-28 14:40:31,224 - INFO - 添加条目: 4
+2026-11-28 14:40:31,239 - INFO - 完成: 2026-11-28 14:40:31.239948

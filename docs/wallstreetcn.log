@@ -1,0 +1,36 @@
+2026-11-28 14:40:31,244 - INFO - ------------------------------------------------------
+2026-11-28 14:40:31,245 - INFO - 开始: 2026-11-28 14:40:31.245120
+2026-11-28 14:40:31,245 - INFO - 现有条目: 20
+2026-11-28 14:40:31,478 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,478 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 111
+2026-11-28 14:40:31,478 - INFO - 添加: [The French economy tipped into a recession in the third quarter as summer heat waves slowed Airbus’s factories, complicating the government’s plans to narrow its yawning budget deficit]
+2026-11-28 14:40:31,529 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,529 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 113
+2026-11-28 14:40:31,529 - INFO - 添加: [Week Ahead for FX, Bonds: Key Labor Data in Focus Ahead of Fed’s December Rate Decision]
+2026-11-28 14:40:31,575 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,575 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 189
+2026-11-28 14:40:31,575 - INFO - 添加: [U.S. Consumer Confidence Came Roaring Back in November, Conference Board Says]
+2026-11-28 14:40:31,638 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,638 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 191
+2026-11-28 14:40:31,638 - INFO - 添加: [Canada Retail Sales Pull Back After 0.8% Rise in September]
+2026-11-28 14:40:31,685 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,685 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 200
+2026-11-28 14:40:31,685 - INFO - 添加: [Consumer Sentiment Climbed in November]
+2026-11-28 14:40:31,741 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,741 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 162
+2026-11-28 14:40:31,742 - INFO - 添加: [U.K. Consumer Confidence Picks Up Despite Rising Headwinds]
+2026-11-28 14:40:31,781 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,781 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 116
+2026-11-28 14:40:31,781 - INFO - 添加: [Shoppers’ complaints about food prices could soon grow louder, as surging energy costs and supply-chain delays are elevating costs for producers: “The worst is yet to come”]
+2026-11-28 14:40:31,829 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,829 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 119
+2026-11-28 14:40:31,829 - INFO - 添加: [U.S. Consumer Mood Improved but Remained Gloomy This Month]
+2026-11-28 14:40:31,867 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,868 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 83
+2026-11-28 14:40:31,868 - INFO - 添加: [U.S. prepares to raise tariffs on China and other countries]
+2026-11-28 14:40:31,932 - ERROR - 摘要生成失败: Error code: 404
+2026-11-28 14:40:31,932 - INFO - 使用gemini-2.0-flash生成摘要，文本长度: 192
+2026-11-28 14:40:31,932 - INFO - 添加: [China to Suspend Some Critical-Material Export Curbs to U.S. Until January]
+2026-11-28 14:40:31,932 - INFO - 跳过: [EU Inks Trade Deal With Indonesia to Cut Tariffs, Catalyze Investment]
+2026-11-28 14:40:31,932 - INFO - 添加条目: 10
+2026-11-28 14:40:31,937 - INFO - 完成: 2026-11-28 14:40:31.937956
